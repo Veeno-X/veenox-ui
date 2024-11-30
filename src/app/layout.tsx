@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -11,6 +12,13 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+
+const poppins = Poppins({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -26,10 +34,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.className} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
+      <script
+        type="module"
+        src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"
+      ></script>
+      <script
+        type="module"
+        src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"
+      ></script>
+      <script
+        type="module"
+        src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"
+      ></script>
     </html>
   );
 }
