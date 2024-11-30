@@ -85,14 +85,14 @@ const Home: FC = () => {
         ></spline-viewer> */}
       </section>
       <div className="relative">
-        <section className="pt-[80px] pb-[120px] ">
+        <section className="pb-[120px] pt-[160px]">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
             <div className="flex items-center">
               <span className="h-3 w-3 rounded-full bg-font-80 mr-3" />
               <FontMedium className="uppercase">Features</FontMedium>
             </div>
-            <div className="flex items-start mt-10 justify-between">
-              <H2 className="max-w-[740px] text-purple">
+            <div className="flex items-start mt-6 justify-between">
+              <H2 className="max-w-[740px] text-white">
                 Essential features for CEX trading experiences
               </H2>
               <FontSmall className="max-w-[400px] mt-1.5">
@@ -111,11 +111,11 @@ const Home: FC = () => {
           src="/layers/noise-circle.png"
           className="absolute top-0 h-auto object-contain -right-[50%]"
         />
-        <img
+        {/* <img
           src="/layers/noise-circle.png"
           className="absolute top-[25%] h-auto object-contain -left-[20%]"
-        />
-        <section className="pb-[200px] pt-[240px] relative">
+        /> */}
+        <section className="pb-[200px] pt-[150px] relative">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
             <div className="flex w-full items-center justify-center mb-10">
               <span className="h-3 w-3 rounded-full bg-font-80 mr-3" />
@@ -126,88 +126,96 @@ const Home: FC = () => {
               standout features
             </H2>
             <div className="grid grid-cols-5 gap-4 mt-[100px]">
-              <WobbleCard containerClassName="col-span-2 h-[500px]">
+              <WobbleCard containerClassName="col-span-2 h-[500px] relative">
+                <Image
+                  src="/assets/cube.png"
+                  height={350}
+                  width={350}
+                  alt="ecosystem illustration"
+                  className="absolute -right-5 -z-10  rotate-[125deg] bottom-4"
+                />
                 <div className="">
-                  <FontLarge className="font-bold mb-5 text-white">
-                    Manage your positions
+                  <FontLarge className="font-bold text-4xl mb-5 text-white">
+                    Trade cryptos <br />
+                    Across any chain
                   </FontLarge>
-                  <ul>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                  </ul>
+                  <FontSmall className="max-w-[350px] text-lg">
+                    Experience seamless perpetual trading across multiple
+                    blockchain ecosystems.
+                  </FontSmall>
                 </div>
               </WobbleCard>
-              <WobbleCard containerClassName="col-span-3 h-[500px]">
+              <WobbleCard containerClassName="col-span-3 h-[500px] relative">
+                <Image
+                  src="/assets/ecosystem-chain.png"
+                  height={430}
+                  width={430}
+                  alt="ecosystem illustration"
+                  className="absolute right-5 -z-10 top-1/2 -translate-y-1/2"
+                />
                 <div className="">
-                  <FontLarge className="font-bold mb-5 text-white">
-                    Multi chains
+                  <FontLarge className="font-bold text-4xl mb-5 text-white">
+                    Trade cryptos <br />
+                    Across any chain
                   </FontLarge>
-                  <ul>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                  </ul>
+                  <FontSmall className="max-w-[350px] text-lg">
+                    Experience seamless perpetual trading across multiple
+                    blockchain ecosystems. Our platform supports major chains
+                    like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade
+                    perpetual contracts with precision, speed, and security, all
+                    while enjoying the freedom of cross-chain interoperability.
+                  </FontSmall>
                 </div>
               </WobbleCard>
-              <WobbleCard containerClassName="col-span-3 h-[700px]">
-                <div className="">
-                  <FontLarge className="font-bold mb-5 text-white">
-                    Multi chains
-                  </FontLarge>
-                  <ul>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                  </ul>
+              <WobbleCard containerClassName="col-span-3 h-[500px] relative">
+                <div className="flex justify-end">
+                  <div>
+                    <FontLarge className="font-bold text-4xl mb-5 text-white">
+                      Trade cryptos <br />
+                      Across any chain
+                    </FontLarge>
+                    <FontSmall className="max-w-[350px] text-lg">
+                      Experience seamless perpetual trading across multiple
+                      blockchain ecosystems. Our platform supports major chains
+                      like Monad, Ethereum, Arbitrum, Sei, Solana, and more.
+                      Trade perpetual contracts with precision, speed, and
+                      security, all while enjoying the freedom of cross-chain
+                      interoperability.
+                    </FontSmall>
+                  </div>
                 </div>
+                <Image
+                  src="/assets/chart.png"
+                  height={460}
+                  width={460}
+                  alt="ecosystem illustration"
+                  className="absolute left-5 -z-10 top-1/2 -translate-y-1/2"
+                />
               </WobbleCard>
-              <WobbleCard containerClassName="col-span-2 h-[700px]">
+              <WobbleCard containerClassName="col-span-2 h-[500px] relative">
+                <Image
+                  src="/assets/mobile.png"
+                  height={350}
+                  width={350}
+                  alt="ecosystem illustration"
+                  className="absolute right-5 -z-10 -bottom-[120px]"
+                />
+                <Image
+                  src="/assets/mobile.png"
+                  height={280}
+                  width={280}
+                  alt="ecosystem illustration"
+                  className="absolute right-[180px] -bottom-[150px]"
+                />
                 <div className="">
-                  <FontLarge className="font-bold mb-5 text-white">
-                    Multi chains
+                  <FontLarge className="font-bold text-4xl mb-5 text-white">
+                    Trade cryptos <br />
+                    Across any chain
                   </FontLarge>
-                  <ul>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                    <li className="text-lg text-white font-medium">
-                      Set Take Profit and Stop Loss before trade initiation
-                    </li>
-                  </ul>
+                  <FontSmall className="max-w-[350px] text-lg">
+                    Experience seamless perpetual trading across multiple
+                    blockchain ecosystems.
+                  </FontSmall>
                 </div>
               </WobbleCard>
             </div>

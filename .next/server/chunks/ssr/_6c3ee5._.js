@@ -401,7 +401,7 @@ const Home = ()=>{
                 className: "relative",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "pt-[80px] pb-[120px] ",
+                        className: "pb-[120px] pt-[160px]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "max-w-[1500px] w-[90%] mx-auto ",
                             children: [
@@ -430,10 +430,10 @@ const Home = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start mt-10 justify-between",
+                                    className: "flex items-start mt-6 justify-between",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
-                                            className: "max-w-[740px] text-purple",
+                                            className: "max-w-[740px] text-white",
                                             children: "Essential features for CEX trading experiences"
                                         }, void 0, false, {
                                             fileName: "[project]/src/features/home/index.tsx",
@@ -489,16 +489,8 @@ const Home = ()=>{
                         lineNumber: 110,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/layers/noise-circle.png",
-                        className: "absolute top-[25%] h-auto object-contain -left-[20%]"
-                    }, void 0, false, {
-                        fileName: "[project]/src/features/home/index.tsx",
-                        lineNumber: 114,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "pb-[200px] pt-[240px] relative",
+                        className: "pb-[200px] pt-[150px] relative",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "max-w-[1500px] w-[90%] mx-auto ",
                             children: [
@@ -546,259 +538,232 @@ const Home = ()=>{
                                     className: "grid grid-cols-5 gap-4 mt-[100px]",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-2 h-[500px]",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                        className: "font-bold mb-5 text-white",
-                                                        children: "Manage your positions"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 131,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 135,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 138,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 141,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 144,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 134,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/features/home/index.tsx",
-                                                lineNumber: 130,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
+                                            containerClassName: "col-span-2 h-[500px] relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/assets/cube.png",
+                                                    height: 350,
+                                                    width: 350,
+                                                    alt: "ecosystem illustration",
+                                                    className: "absolute -right-5 -z-10  rotate-[125deg] bottom-4"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 130,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                            className: "font-bold text-4xl mb-5 text-white",
+                                                            children: [
+                                                                "Trade cryptos ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                                    lineNumber: 139,
+                                                                    columnNumber: 35
+                                                                }, this),
+                                                                "Across any chain"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/features/home/index.tsx",
+                                                            lineNumber: 138,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                            className: "max-w-[350px] text-lg",
+                                                            children: "Experience seamless perpetual trading across multiple blockchain ecosystems."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/features/home/index.tsx",
+                                                            lineNumber: 142,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 137,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/features/home/index.tsx",
                                             lineNumber: 129,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-3 h-[500px]",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                        className: "font-bold mb-5 text-white",
-                                                        children: "Multi chains"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 152,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 156,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 159,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 162,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 165,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 155,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/features/home/index.tsx",
-                                                lineNumber: 151,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
+                                            containerClassName: "col-span-3 h-[500px] relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/assets/ecosystem-chain.png",
+                                                    height: 430,
+                                                    width: 430,
+                                                    alt: "ecosystem illustration",
+                                                    className: "absolute right-5 -z-10 top-1/2 -translate-y-1/2"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 149,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                            className: "font-bold text-4xl mb-5 text-white",
+                                                            children: [
+                                                                "Trade cryptos ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                                    lineNumber: 158,
+                                                                    columnNumber: 35
+                                                                }, this),
+                                                                "Across any chain"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/features/home/index.tsx",
+                                                            lineNumber: 157,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                            className: "max-w-[350px] text-lg",
+                                                            children: "Experience seamless perpetual trading across multiple blockchain ecosystems. Our platform supports major chains like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade perpetual contracts with precision, speed, and security, all while enjoying the freedom of cross-chain interoperability."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/features/home/index.tsx",
+                                                            lineNumber: 161,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 156,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-3 h-[700px]",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                        className: "font-bold mb-5 text-white",
-                                                        children: "Multi chains"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 173,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            containerClassName: "col-span-3 h-[500px] relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex justify-end",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                                className: "font-bold text-4xl mb-5 text-white",
+                                                                children: [
+                                                                    "Trade cryptos ",
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                        fileName: "[project]/src/features/home/index.tsx",
+                                                                        lineNumber: 174,
+                                                                        columnNumber: 37
+                                                                    }, this),
+                                                                    "Across any chain"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/features/home/index.tsx",
+                                                                lineNumber: 173,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                                className: "max-w-[350px] text-lg",
+                                                                children: "Experience seamless perpetual trading across multiple blockchain ecosystems. Our platform supports major chains like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade perpetual contracts with precision, speed, and security, all while enjoying the freedom of cross-chain interoperability."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/features/home/index.tsx",
                                                                 lineNumber: 177,
                                                                 columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 180,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 183,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 186,
-                                                                columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 172,
                                                         columnNumber: 19
                                                     }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/features/home/index.tsx",
-                                                lineNumber: 172,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 171,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/assets/chart.png",
+                                                    height: 460,
+                                                    width: 460,
+                                                    alt: "ecosystem illustration",
+                                                    className: "absolute left-5 -z-10 top-1/2 -translate-y-1/2"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 187,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 171,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-2 h-[700px]",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                        className: "font-bold mb-5 text-white",
-                                                        children: "Multi chains"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 194,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 198,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 201,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 204,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "text-lg text-white font-medium",
-                                                                children: "Set Take Profit and Stop Loss before trade initiation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 207,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 197,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/features/home/index.tsx",
-                                                lineNumber: 193,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
+                                            containerClassName: "col-span-2 h-[500px] relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/assets/mobile.png",
+                                                    height: 350,
+                                                    width: 350,
+                                                    alt: "ecosystem illustration",
+                                                    className: "absolute right-5 -z-10 -bottom-[120px]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 196,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/assets/mobile.png",
+                                                    height: 280,
+                                                    width: 280,
+                                                    alt: "ecosystem illustration",
+                                                    className: "absolute right-[180px] -bottom-[150px]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 203,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                            className: "font-bold text-4xl mb-5 text-white",
+                                                            children: [
+                                                                "Trade cryptos ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                                    lineNumber: 212,
+                                                                    columnNumber: 35
+                                                                }, this),
+                                                                "Across any chain"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/features/home/index.tsx",
+                                                            lineNumber: 211,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                            className: "max-w-[350px] text-lg",
+                                                            children: "Experience seamless perpetual trading across multiple blockchain ecosystems."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/features/home/index.tsx",
+                                                            lineNumber: 215,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/features/home/index.tsx",
+                                                    lineNumber: 210,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 192,
+                                            lineNumber: 195,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -838,7 +803,7 @@ const Home = ()=>{
                                     children: "Who We Are Crafting Our Business"
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 228,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
@@ -846,13 +811,13 @@ const Home = ()=>{
                                     children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae nam laborum distinctio"
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 223,
+                                    lineNumber: 231,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 219,
+                            lineNumber: 227,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -866,12 +831,12 @@ const Home = ()=>{
                                             description: description
                                         }, i, false, {
                                             fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 231,
+                                            lineNumber: 239,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 229,
+                                    lineNumber: 237,
                                     columnNumber: 13
                                 }, this),
                                 " ",
@@ -885,29 +850,29 @@ const Home = ()=>{
                                         className: "object-cover object-center rounded-md h-[400px] w-full"
                                     }, void 0, false, {
                                         fileName: "[project]/src/features/home/index.tsx",
-                                        lineNumber: 240,
+                                        lineNumber: 248,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 239,
+                                    lineNumber: 247,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 228,
+                            lineNumber: 236,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/features/home/index.tsx",
-                    lineNumber: 218,
+                    lineNumber: 226,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 217,
+                lineNumber: 225,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -922,29 +887,29 @@ const Home = ()=>{
                                 "Involved community ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 255,
+                                    lineNumber: 263,
                                     columnNumber: 34
                                 }, this),
                                 "around the world"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 254,
+                            lineNumber: 262,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/features/home/index.tsx",
-                        lineNumber: 253,
+                        lineNumber: 261,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/features/home/index.tsx",
-                    lineNumber: 252,
+                    lineNumber: 260,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 251,
+                lineNumber: 259,
                 columnNumber: 7
             }, this)
         ]
