@@ -276,11 +276,11 @@ const Home: FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-[200px] relative overflow-hidden">
-        <img
-          src="/layers/test-2.png"
-          className="absolute object-cover h-full -z-10 -scale-x-[1]"
-        />
+      <section className="py-[200px] relative overflow-hidden bg-[url('/layers/test-2.png')] bg-no-repeat bg-cover">
+        <div className="text-center mb-[300px]">
+          <H2>Our partners & Integration</H2>
+          <div className="mx-auto flex items-center gap-10 w-fit mt-[50px]"></div>
+        </div>
         <div className="max-w-[1500px] w-[90%] mx-auto ">
           <div className="flex items-start justify-center mb-[100px]">
             <H2 className="max-w-[680px] text-center">Roadmap</H2>
