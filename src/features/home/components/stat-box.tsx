@@ -2,7 +2,7 @@ import { FontSmall, H2 } from "@/components/fonts";
 import { FC } from "react";
 
 type StatBoxType = {
-  value: number;
+  value: number | string;
   tag: string;
   description: string;
 };
@@ -16,7 +16,7 @@ export const BoxStat: FC<StatBoxType> = ({ value, tag, description }) => {
           ({tag})
         </FontSmall>
       </div>
-      <FontSmall className="font-normal">{description}</FontSmall>
+      <FontSmall className="font-normal max-w-[80%]">{description}</FontSmall>
     </div>
   );
 };

@@ -1,6 +1,8 @@
+"use client";
 import { FontLarge, FontMedium, FontSmall, H2 } from "@/components/fonts";
 import { WobbleCard } from "@/components/wobble-card";
 import { insights, stats } from "@/constants";
+import Spline from "@splinetool/react-spline/next";
 import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
@@ -8,9 +10,19 @@ import { BoxInsight } from "./components/insight-box";
 import { BoxStat } from "./components/stat-box";
 
 const Home: FC = () => {
+  // try {
+  //   const viewer = document.querySelector("spline-viewer");
+  //   if (viewer)
+  //     viewer?.addEventListener("load", () => {
+  //       const canvas = viewer.querySelector("canvas");
+  //       canvas?.style.width = "400px";
+  //       canvas?.style.height = "400px";
+  //     });
+  // } catch (e) {}
+
   return (
     <main>
-      <section className="h-[90vh] w-screen flex items-center bg-[url('/layers/noise.png')] bg-center bg-cover  overflow-hidden">
+      <section className="h-[90vh] pt-[120px] w-screen flex items-center bg-[url('/layers/test.png')] bg-center bg-cover  overflow-hidden">
         <div className="flex max-w-[1500px] w-[90%] items-center justify-between mx-auto z-[100] pointer-events-none">
           <div className="">
             <div
@@ -74,26 +86,17 @@ const Home: FC = () => {
             />
           </div>
         </div>
-        {/* <spline-viewer
-          className="absolute "
-          url="https://prod.spline.design/VqLsD2Dic9nw1lIT/scene.splinecode"
-        ></spline-viewer> */}
-        {/* 
-        <spline-viewer
-          className="absolute left-[20%] "
-          url="https://prod.spline.design/sAZUB2iZoctZLfgN/scene.splinecode"
-        ></spline-viewer> */}
       </section>
-      <div className="relative">
-        <section className="pb-[120px] pt-[160px]">
+      <div className="relative overflow-x-hidden">
+        <section className="pb-[120px] pt-[160px] relative">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
             <div className="flex items-center">
               <span className="h-3 w-3 rounded-full bg-font-80 mr-3" />
               <FontMedium className="uppercase">Features</FontMedium>
             </div>
             <div className="flex items-start mt-6 justify-between">
-              <H2 className="max-w-[740px] text-white">
-                Essential features for CEX trading experiences
+              <H2 className="max-w-[740px] text-white uppercase">
+                Level up your trading experience on DEX
               </H2>
               <FontSmall className="max-w-[400px] mt-1.5">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -101,20 +104,21 @@ const Home: FC = () => {
               </FontSmall>
             </div>
             <div className="flex justify-between mt-[120px]">
-              {insights.map(({ title, description }, i) => (
-                <BoxInsight key={i} title={title} description={description} />
+              {insights.map(({ title, icon, description }, i) => (
+                <BoxInsight
+                  key={i}
+                  icon={icon}
+                  title={title}
+                  description={description}
+                />
               ))}
             </div>{" "}
-          </div>
+          </div>{" "}
+          {/* <img
+            src="/layers/test-3.png"
+            className="absolute -top-[40%] object-cover left-0 "
+          /> */}
         </section>
-        <img
-          src="/layers/noise-circle.png"
-          className="absolute top-0 h-auto object-contain -right-[50%]"
-        />
-        {/* <img
-          src="/layers/noise-circle.png"
-          className="absolute top-[25%] h-auto object-contain -left-[20%]"
-        /> */}
         <section className="pb-[200px] pt-[150px] relative">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
             <div className="flex w-full items-center justify-center mb-10">
@@ -128,11 +132,11 @@ const Home: FC = () => {
             <div className="grid grid-cols-5 gap-4 mt-[100px]">
               <WobbleCard containerClassName="col-span-2 h-[500px] relative">
                 <Image
-                  src="/assets/cube.png"
-                  height={350}
-                  width={350}
+                  src="/layers/mac.png"
+                  height={500}
+                  width={500}
                   alt="ecosystem illustration"
-                  className="absolute -right-5 -z-10  rotate-[125deg] bottom-4"
+                  className="absolute right-5 -z-10 -bottom-[50px]"
                 />
                 <div className="">
                   <FontLarge className="font-bold text-4xl mb-5 text-white">
@@ -184,12 +188,9 @@ const Home: FC = () => {
                     </FontSmall>
                   </div>
                 </div>
-                <Image
-                  src="/assets/chart.png"
-                  height={460}
-                  width={460}
-                  alt="ecosystem illustration"
-                  className="absolute left-5 -z-10 top-1/2 -translate-y-1/2"
+                <img
+                  src="/layers/bars.png"
+                  className="absolute left-5 -z-10 top-1/2 -translate-y-1/2 h-[350px]"
                 />
               </WobbleCard>
               <WobbleCard containerClassName="col-span-2 h-[500px] relative">
@@ -209,8 +210,9 @@ const Home: FC = () => {
                 />
                 <div className="">
                   <FontLarge className="font-bold text-4xl mb-5 text-white">
-                    Trade cryptos <br />
-                    Across any chain
+                    One of the best
+                    <br />
+                    Mobile version
                   </FontLarge>
                   <FontSmall className="max-w-[350px] text-lg">
                     Experience seamless perpetual trading across multiple
@@ -221,16 +223,24 @@ const Home: FC = () => {
             </div>
           </div>
         </section>{" "}
+        {/* <img
+          src="/layers/test-3.png"
+          className="absolute  -top-[10%] object-cover -right-[40%] h-[200vh]"
+        />*/}
+        <img
+          src="/layers/test-4.png"
+          className="absolute scale-x-[-1] -rotate-45 h-[250vh] -top-[80vh] object-contain -left-[20%]"
+        />
       </div>
-      <section className="py-[200px] relative bg-[url('/layers/noise-2.png')] bg-center bg-cover">
+      <section className="pt-[130px] pb-[90px] relative bg-[url('/layers/test-2.png')] bg-center bg-cover">
         <div className="max-w-[1500px] w-[90%] mx-auto ">
           <div className="flex items-start justify-between">
-            <H2 className="max-w-[680px] text-purple">
-              Who We Are Crafting Our Business
+            <H2 className="max-w-[680px] text-white uppercase">
+              Some Stats About VeenoX alpha
             </H2>
             <FontSmall className="max-w-[400px] mt-1.5">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus molestiae nam laborum distinctio
+              VeenoX has improved the trading experience of more than 40 traders
+              who asked for the best trading platform with CEX like experience
             </FontSmall>
           </div>
           <div className="flex justify-between">
@@ -244,25 +254,98 @@ const Home: FC = () => {
                 />
               ))}
             </div>{" "}
-            <div className="w-[35%] min-w-[400px] mt-10">
-              <Image
+            <div className="w-[35%] min-w-[400px] max-w-[520px] mt-10">
+              {/* <Spline
+                scene="https://prod.spline.design/FIqOZxbFa1GrmvKD/scene.splinecode"
+                width={600}
+                height={600}
+              /> */}
+              <Spline
+                scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode"
+                width={530}
+                height={530}
+              />
+              {/* <Image
                 src="/assets/exemple.jpeg"
                 alt="test image"
                 height={300}
                 width={300}
                 className="object-cover object-center rounded-md h-[400px] w-full"
-              />
+              /> */}
             </div>
           </div>
         </div>
       </section>
-      <section className="py-[200px] relative h-[60vh]">
+      <section className="py-[200px] relative overflow-hidden">
+        <img
+          src="/layers/test-2.png"
+          className="absolute object-cover h-full -z-10 -scale-x-[1]"
+        />
         <div className="max-w-[1500px] w-[90%] mx-auto ">
-          <div className="flex items-start justify-center">
-            <H2 className="max-w-[680px] text-center">
-              Involved community <br />
-              around the world
-            </H2>
+          <div className="flex items-start justify-center mb-[100px]">
+            <H2 className="max-w-[680px] text-center">Roadmap</H2>
+          </div>
+          <div className="flex items-center">
+            <div className="w-1/2 h-[800px]">
+              <Spline scene="https://prod.spline.design/xJ8P7i-rvWtTMpaa/scene.splinecode" />
+            </div>
+            <div className="w-1/2 flex relative">
+              <div className="relative flex flex-col justify-between items-center w-[120px] h-[650px]">
+                <div className="absolute left-1/2 -translate-x-1/2 top-0 h-[60px] rounded-md flex items-center justify-center w-[120px] border border-borderColor bg-borderColor">
+                  <FontMedium>Q1-Q2</FontMedium>
+                </div>
+                <div className="absolute left-1/2 -translate-x-1/2 top-1/3 h-[60px] rounded-md flex items-center justify-center w-[120px] border border-borderColor bg-borderColor">
+                  <FontMedium>Q1-Q2</FontMedium>
+                </div>
+                <div className="absolute left-1/2 -translate-x-1/2 top-2/3 h-[60px] rounded-md flex items-center justify-center w-[120px] border border-borderColor bg-borderColor">
+                  <FontMedium>Q1-Q2</FontMedium>
+                </div>
+                <div className="absolute left-1/2 -translate-x-1/2 top-full h-[60px] rounded-md flex items-center justify-center w-[120px] border border-borderColor bg-borderColor">
+                  <FontMedium>Q1-Q2</FontMedium>
+                </div>
+                <div className="h-full w-0.5 bg-borderColor" />
+              </div>
+              <div
+                className="absolute left-[150px] top-0 ml-auto"
+                style={{ width: "calc(100% - 80px)" }}
+              >
+                <FontLarge>Trading Academy</FontLarge>
+                <FontSmall className="max-w-[500px] mt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellendus, corrupti minus aperiam dignissimos,
+                </FontSmall>
+              </div>
+              <div
+                className="absolute left-[150px] top-1/3 ml-auto"
+                style={{ width: "calc(100% - 80px)" }}
+              >
+                <FontLarge>Trading Academy</FontLarge>
+                <FontSmall className="max-w-[500px] mt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellendus, corrupti minus aperiam dignissimos,
+                </FontSmall>
+              </div>
+              <div
+                className="absolute left-[150px] top-2/3 ml-auto"
+                style={{ width: "calc(100% - 80px)" }}
+              >
+                <FontLarge>Trading Academy</FontLarge>
+                <FontSmall className="max-w-[500px] mt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellendus, corrupti minus aperiam dignissimos,
+                </FontSmall>
+              </div>
+              <div
+                className="absolute left-[150px] top-full ml-auto"
+                style={{ width: "calc(100% - 80px)" }}
+              >
+                <FontLarge>Trading Academy</FontLarge>
+                <FontSmall className="max-w-[500px] mt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellendus, corrupti minus aperiam dignissimos,
+                </FontSmall>
+              </div>
+            </div>
           </div>
         </div>
         {/* <spline-viewer

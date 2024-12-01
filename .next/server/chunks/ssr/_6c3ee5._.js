@@ -113,38 +113,41 @@ __turbopack_esm__({
 });
 const insights = [
     {
-        title: "Expense insight",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?"
+        title: "Unified Orderbook & Liquidity",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?",
+        icon: "/assets/cube.png"
     },
     {
-        title: "Expense insight",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?"
+        title: "One-Click Trading Experience",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?",
+        icon: "/assets/volt.png"
     },
     {
-        title: "Expense insight",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?"
+        title: "CEX-level Performance",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?",
+        icon: "/assets/trophee.png"
     }
 ];
 const stats = [
     {
-        value: 100,
-        tag: "NEW",
-        description: "Lorem ipsum dolor sit, amet consectetur "
+        value: 9,
+        tag: "Chains",
+        description: "VeenoX support 9 differents chains including EVM & Solana."
     },
     {
-        value: 100,
-        tag: "NEW",
-        description: "Lorem ipsum dolor sit, amet consectetur "
+        value: "+110",
+        tag: "Pairs",
+        description: "VeenoX support more than 110 pairs tradable."
     },
     {
-        value: 100,
-        tag: "NEW",
-        description: "Lorem ipsum dolor sit, amet consectetur "
+        value: "10M",
+        tag: "Volume",
+        description: "Reached a volume of 10M during alpha phase"
     },
     {
-        value: 100,
-        tag: "NEW",
-        description: "Lorem ipsum dolor sit, amet consectetur "
+        value: 25,
+        tag: "TP/SL",
+        description: "Traders can sumiltanly put 25 TP/SL"
     }
 ];
 }}),
@@ -158,19 +161,23 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/fonts.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/gi/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
 ;
 ;
-const BoxInsight = ({ title, description })=>{
+const BoxInsight = ({ title, description, icon })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-[33%]",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["GiProcessor"], {
-                className: "text-6xl text-white"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                height: 50,
+                width: 50,
+                src: icon,
+                alt: `${title} icon`,
+                className: "object-cover min-h-[50px] w-auto max-h-[50px]"
             }, void 0, false, {
                 fileName: "[project]/src/features/home/components/insight-box.tsx",
-                lineNumber: 13,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
@@ -178,7 +185,7 @@ const BoxInsight = ({ title, description })=>{
                 children: title
             }, void 0, false, {
                 fileName: "[project]/src/features/home/components/insight-box.tsx",
-                lineNumber: 14,
+                lineNumber: 25,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
@@ -186,13 +193,13 @@ const BoxInsight = ({ title, description })=>{
                 children: description
             }, void 0, false, {
                 fileName: "[project]/src/features/home/components/insight-box.tsx",
-                lineNumber: 15,
+                lineNumber: 26,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/features/home/components/insight-box.tsx",
-        lineNumber: 12,
+        lineNumber: 17,
         columnNumber: 5
     }, this);
 };
@@ -243,7 +250,7 @@ const BoxStat = ({ value, tag, description })=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                className: "font-normal",
+                className: "font-normal max-w-[80%]",
                 children: description
             }, void 0, false, {
                 fileName: "[project]/src/features/home/components/stat-box.tsx",
@@ -263,663 +270,10 @@ const BoxStat = ({ value, tag, description })=>{
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
 {
-__turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/fonts.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/wobble-card.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/constants/index.ts [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$components$2f$insight$2d$box$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/features/home/components/insight-box.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$components$2f$stat$2d$box$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/features/home/components/stat-box.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$index$2e$tsx__$28$client__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/src/features/home/index.tsx (client proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$index$2e$tsx__$28$client__proxy$29$__ = __turbopack_import__("[project]/src/features/home/index.tsx (client proxy)");
 ;
-;
-;
-;
-;
-;
-;
-;
-const Home = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "h-[90vh] w-screen flex items-center bg-[url('/layers/noise.png')] bg-center bg-cover  overflow-hidden",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex max-w-[1500px] w-[90%] items-center justify-between mx-auto z-[100] pointer-events-none",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "overflow-hidden block relative md:whitespace-nowrap text-4xl lg:text-[80px] leading-[90px] font-extrabold w-auto font-poppins text-white  text-start",
-                                    children: [
-                                        "CEX Trading Exp ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 20,
-                                            columnNumber: 31
-                                        }, this),
-                                        "Trading Academy"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex w-full jusitfy-start",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm lg:text-2xl text-font-80 font-normal text-start mt-3 lg:mt-7 max-w-[450px] lg:max-w-[800px]",
-                                        children: "Learn crypto trading through interactive experiences, not endless videos. VeenoX combines a professional perpetual DEX with innovative learn-to-earn features. Master trading patterns, practice in real-time, earn rewards."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/features/home/index.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 23,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center w-fit justify-start",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "mt-7 lg:mt-[50px] h-[40px] lg:h-[50px] px-2 lg:px-3 rounded-full mx-auto text-white text-lg mr-auto cursor-pointer bg-[#836EF9]",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/perp/PERP_BTC_USDC",
-                                            className: "w-full h-full",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-center justify-center text-white font-medium w-full text-sm lg:text-lg h-full px-3 lg:px-4 py-1.5 lg:py-2",
-                                                children: "Get Started"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/features/home/index.tsx",
-                                                lineNumber: 34,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 33,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/features/home/index.tsx",
-                                        lineNumber: 32,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, this),
-                                " "
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "h-[600px] relative",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/assets/logo.png",
-                                    className: "w-[550px] min-w-[550px] animate-float"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/assets/base.png",
-                                    className: "absolute w-[550px] min-w-[550px] -bottom-[280px]"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 71,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 66,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/features/home/index.tsx",
-                    lineNumber: 14,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "pb-[120px] pt-[160px]",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-[1500px] w-[90%] mx-auto ",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "h-3 w-3 rounded-full bg-font-80 mr-3"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 91,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontMedium"], {
-                                            className: "uppercase",
-                                            children: "Features"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 92,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 90,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-start mt-6 justify-between",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
-                                            className: "max-w-[740px] text-white",
-                                            children: "Essential features for CEX trading experiences"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 95,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                            className: "max-w-[400px] mt-1.5",
-                                            children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae nam laborum distinctio"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 98,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 94,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex justify-between mt-[120px]",
-                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["insights"].map(({ title, description }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$components$2f$insight$2d$box$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BoxInsight"], {
-                                            title: title,
-                                            description: description
-                                        }, i, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 105,
-                                            columnNumber: 17
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 103,
-                                    columnNumber: 13
-                                }, this),
-                                " "
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 89,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/features/home/index.tsx",
-                        lineNumber: 88,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/layers/noise-circle.png",
-                        className: "absolute top-0 h-auto object-contain -right-[50%]"
-                    }, void 0, false, {
-                        fileName: "[project]/src/features/home/index.tsx",
-                        lineNumber: 110,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "pb-[200px] pt-[150px] relative",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-[1500px] w-[90%] mx-auto ",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex w-full items-center justify-center mb-10",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "h-3 w-3 rounded-full bg-font-80 mr-3"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 121,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontMedium"], {
-                                            className: "uppercase",
-                                            children: "Features"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 122,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 120,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
-                                    className: "text-center",
-                                    children: [
-                                        "Explore our ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 125,
-                                            columnNumber: 27
-                                        }, this),
-                                        "standout features"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 124,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-5 gap-4 mt-[100px]",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-2 h-[500px] relative",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/cube.png",
-                                                    height: 350,
-                                                    width: 350,
-                                                    alt: "ecosystem illustration",
-                                                    className: "absolute -right-5 -z-10  rotate-[125deg] bottom-4"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 130,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                            className: "font-bold text-4xl mb-5 text-white",
-                                                            children: [
-                                                                "Trade cryptos ",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                                    lineNumber: 139,
-                                                                    columnNumber: 35
-                                                                }, this),
-                                                                "Across any chain"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/features/home/index.tsx",
-                                                            lineNumber: 138,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                                            className: "max-w-[350px] text-lg",
-                                                            children: "Experience seamless perpetual trading across multiple blockchain ecosystems."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/features/home/index.tsx",
-                                                            lineNumber: 142,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 137,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 129,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-3 h-[500px] relative",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/ecosystem-chain.png",
-                                                    height: 430,
-                                                    width: 430,
-                                                    alt: "ecosystem illustration",
-                                                    className: "absolute right-5 -z-10 top-1/2 -translate-y-1/2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 149,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                            className: "font-bold text-4xl mb-5 text-white",
-                                                            children: [
-                                                                "Trade cryptos ",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                                    lineNumber: 158,
-                                                                    columnNumber: 35
-                                                                }, this),
-                                                                "Across any chain"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/features/home/index.tsx",
-                                                            lineNumber: 157,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                                            className: "max-w-[350px] text-lg",
-                                                            children: "Experience seamless perpetual trading across multiple blockchain ecosystems. Our platform supports major chains like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade perpetual contracts with precision, speed, and security, all while enjoying the freedom of cross-chain interoperability."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/features/home/index.tsx",
-                                                            lineNumber: 161,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 156,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 148,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-3 h-[500px] relative",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex justify-end",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                                className: "font-bold text-4xl mb-5 text-white",
-                                                                children: [
-                                                                    "Trade cryptos ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                                        lineNumber: 174,
-                                                                        columnNumber: 37
-                                                                    }, this),
-                                                                    "Across any chain"
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 173,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                                                className: "max-w-[350px] text-lg",
-                                                                children: "Experience seamless perpetual trading across multiple blockchain ecosystems. Our platform supports major chains like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade perpetual contracts with precision, speed, and security, all while enjoying the freedom of cross-chain interoperability."
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/features/home/index.tsx",
-                                                                lineNumber: 177,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/features/home/index.tsx",
-                                                        lineNumber: 172,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 171,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/chart.png",
-                                                    height: 460,
-                                                    width: 460,
-                                                    alt: "ecosystem illustration",
-                                                    className: "absolute left-5 -z-10 top-1/2 -translate-y-1/2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 187,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 170,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$wobble$2d$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["WobbleCard"], {
-                                            containerClassName: "col-span-2 h-[500px] relative",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/mobile.png",
-                                                    height: 350,
-                                                    width: 350,
-                                                    alt: "ecosystem illustration",
-                                                    className: "absolute right-5 -z-10 -bottom-[120px]"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 196,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/assets/mobile.png",
-                                                    height: 280,
-                                                    width: 280,
-                                                    alt: "ecosystem illustration",
-                                                    className: "absolute right-[180px] -bottom-[150px]"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 203,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                                            className: "font-bold text-4xl mb-5 text-white",
-                                                            children: [
-                                                                "Trade cryptos ",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                                    lineNumber: 212,
-                                                                    columnNumber: 35
-                                                                }, this),
-                                                                "Across any chain"
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/features/home/index.tsx",
-                                                            lineNumber: 211,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                                            className: "max-w-[350px] text-lg",
-                                                            children: "Experience seamless perpetual trading across multiple blockchain ecosystems."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/features/home/index.tsx",
-                                                            lineNumber: 215,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 210,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 195,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 128,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 119,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/features/home/index.tsx",
-                        lineNumber: 118,
-                        columnNumber: 9
-                    }, this),
-                    " "
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 87,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-[200px] relative bg-[url('/layers/noise-2.png')] bg-center bg-cover",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1500px] w-[90%] mx-auto ",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-start justify-between",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
-                                    className: "max-w-[680px] text-purple",
-                                    children: "Who We Are Crafting Our Business"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 228,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                    className: "max-w-[400px] mt-1.5",
-                                    children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae nam laborum distinctio"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 231,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 227,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-between",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex justify-between mt-[70px] w-[62%] flex-wrap",
-                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["stats"].map(({ tag, value, description }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$components$2f$stat$2d$box$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BoxStat"], {
-                                            value: value,
-                                            tag: tag,
-                                            description: description
-                                        }, i, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 239,
-                                            columnNumber: 17
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 237,
-                                    columnNumber: 13
-                                }, this),
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-[35%] min-w-[400px] mt-10",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/assets/exemple.jpeg",
-                                        alt: "test image",
-                                        height: 300,
-                                        width: 300,
-                                        className: "object-cover object-center rounded-md h-[400px] w-full"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/features/home/index.tsx",
-                                        lineNumber: 248,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 247,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 236,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/features/home/index.tsx",
-                    lineNumber: 226,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 225,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-[200px] relative h-[60vh]",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1500px] w-[90%] mx-auto ",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-start justify-center",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
-                            className: "max-w-[680px] text-center",
-                            children: [
-                                "Involved community ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 263,
-                                    columnNumber: 34
-                                }, this),
-                                "around the world"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 262,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/features/home/index.tsx",
-                        lineNumber: 261,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/features/home/index.tsx",
-                    lineNumber: 260,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 259,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/src/features/home/index.tsx",
-        lineNumber: 12,
-        columnNumber: 5
-    }, this);
-};
-const __TURBOPACK__default__export__ = Home;
+__turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$index$2e$tsx__$28$client__proxy$29$__);
 }}),
 "[project]/src/app/page.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";

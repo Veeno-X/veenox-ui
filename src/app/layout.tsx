@@ -1,3 +1,4 @@
+import { Header } from "@/layouts/header";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
@@ -36,20 +37,9 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
-      <script
-        type="module"
-        src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"
-      ></script>
-      <script
-        type="module"
-        src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"
-      ></script>
-      <script
-        type="module"
-        src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"
-      ></script>
     </html>
   );
 }
