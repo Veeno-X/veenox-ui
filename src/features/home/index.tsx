@@ -260,11 +260,7 @@ const Home: FC = () => {
                 width={600}
                 height={600}
               /> */}
-              <Spline
-                scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode"
-                width={530}
-                height={530}
-              />
+              <Spline scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode" />
               {/* <Image
                 src="/assets/exemple.jpeg"
                 alt="test image"
