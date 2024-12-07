@@ -64,13 +64,13 @@ const Header = ()=>{
     _s();
     const scrollDirection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$useScrollPosition$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScrollDirection"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: `fixed top-9 max-w-[1000px]  left-1/2 -translate-x-1/2 h-[60px] md:h-[80px] z-[100] w-[90%]
-   bg-[#2b2f3649] border border-borderColor-DARK rounded-full
-   backdrop-blur-md px-5 md:px-5 flex items-center justify-between transition-all duration-300
+        className: `fixed top-9 max-w-[1000px]  left-1/2 -translate-x-1/2 h-[60px] md:h-[70px] z-[1000] w-[90%]
+   bg-[#2b2f3649] border border-borderColor-DARK rounded-xl
+   backdrop-blur-md px-5 md:pl-5 pr-2 flex items-center justify-between transition-all duration-300
    ${scrollDirection === "down" ? "-translate-y-[120px]" : "translate-y-0"}`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                src: "/veenox/veenox-text.png",
+                src: "/partners/veenox.png",
                 alt: "Veeno Logo",
                 className: "h-[30px] md:h-[35px] md:block hidden w-auto max-w-auto max-h-[25px] sm:max-w-auto md:max-h-[35px]"
             }, void 0, false, {
@@ -90,7 +90,7 @@ const Header = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                 className: "h-full cursor-pointer",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                    className: "text-white text-medium text-sm md:text-base flex items-center gap-2.5 md:gap-5 h-full",
+                    className: "text-white font-bold text-sm md:text-base flex items-center gap-2.5 md:gap-5 h-full",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             children: [
@@ -113,26 +113,6 @@ const Header = ()=>{
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "https://t.me/veenox_xyz",
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    className: "w-full h-full hover:text-base_color",
-                                    children: "Telegram"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/layouts/header/index.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/layouts/header/index.tsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "https://discord.gg/wPTSZXzUcN",
                                 target: "_blank",
@@ -141,12 +121,12 @@ const Header = ()=>{
                                 children: "Discord"
                             }, void 0, false, {
                                 fileName: "[project]/src/layouts/header/index.tsx",
-                                lineNumber: 49,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/layouts/header/index.tsx",
-                            lineNumber: 48,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -158,12 +138,12 @@ const Header = ()=>{
                                 children: "Docs"
                             }, void 0, false, {
                                 fileName: "[project]/src/layouts/header/index.tsx",
-                                lineNumber: 59,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/layouts/header/index.tsx",
-                            lineNumber: 58,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     ]
@@ -178,26 +158,26 @@ const Header = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                className: "h-[35px] md:h-[45px] px-1 lg:px-3 rounded-full text-white text-sm lg:text-lg cursor-pointer bg-base_color sm:block hidden",
+                className: "h-[35px] md:h-[45px] px-1 lg:px-3 rounded-xl text-white text-sm lg:text-lg cursor-pointer bg-base_color sm:block hidden bg-purple",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: "/perp/PERP_BTC_USDC",
                     className: "w-full h-full hover:text-white",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-center w-full text-sm lg:text-base h-full px-3 lg:px-4 py-2",
-                        children: "Launch Alpha"
+                        className: "flex items-center font-bold justify-center w-full text-sm lg:text-base h-full px-3 lg:px-4 py-2",
+                        children: "Start Trading"
                     }, void 0, false, {
                         fileName: "[project]/src/layouts/header/index.tsx",
-                        lineNumber: 75,
+                        lineNumber: 64,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/header/index.tsx",
-                    lineNumber: 71,
+                    lineNumber: 60,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layouts/header/index.tsx",
-                lineNumber: 70,
+                lineNumber: 59,
                 columnNumber: 7
             }, this)
         ]

@@ -130,25 +130,6 @@ const Home: FC = () => {
                   Exchange data, value and tokens with the world(s most secure
                   and wideladopted cross-chain messaging protocol
                 </FontMedium>
-                <img src="/layers/bars.png" className="w-[700px] mt-[140px]" />
-                <div className="mx-auto w-fit ">
-                  <H2 className="text-9xl font-bold  mt-[150px]">9+</H2>
-                  <FontLarge>Total chains available</FontLarge>
-                  <Link href={""} className="text-font-80">
-                    <FontMedium className="mt-10">Explore chains +</FontMedium>
-                  </Link>
-                </div>
-                <FontLarge className="font-bold mt-[150px] text-7xl mb-5 text-white">
-                  Trade cryptos <br />
-                  Across any chain
-                </FontLarge>
-                <FontSmall className="max-w-[550px] text-xl">
-                  Experience seamless perpetual trading across multiple
-                  blockchain ecosystems. Our platform supports major chains like
-                  Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade
-                  perpetual contracts with precision, speed, and security, all
-                  while enjoying the freedom of cross-chain interoperability.
-                </FontSmall>
               </div>
               <div className="">
                 <img
@@ -162,22 +143,6 @@ const Home: FC = () => {
                 <Link href={""} className="text-font-80">
                   <FontMedium className="mt-10">Explore tokens +</FontMedium>
                 </Link>
-                <FontLarge className="font-bold mt-[150px] text-7xl mb-5 text-white">
-                  CEX like performance, <br />
-                  but better
-                </FontLarge>
-                <FontSmall className="max-w-[550px] text-xl">
-                  Experience professional-grade trading with advanced features:
-                  Live TradingView charts that auto-save your setups (indicators
-                  & drawings persist between sessions), and smart order
-                  management with multiple take-profit and stop-loss levels.
-                  Trade with the precision of a CEX while keeping full control
-                  of your assets.
-                </FontSmall>
-                <img
-                  src="/assets/chains-token.png"
-                  className="w-[600px] mt-[140px] mr-10"
-                />
               </div>
             </div>
             <div className="flex gap-10">
@@ -200,16 +165,16 @@ const Home: FC = () => {
               </div>
               <div className="rounded-2xl bg-secondary h-[500px] p-10 w-[500px] border border-borderColor-DARK">
                 <FontLarge className="font-bold  mb-5 text-white">
-                  UI/UX Crafted <br />
-                  by traders, for traders
+                  CEX like performance, <br />
+                  but better
                 </FontLarge>
                 <FontSmall className="text-lg">
-                  Clean and powerful UI/UX crafted by traders, for traders.
-                  We've experienced the frustrations across various perpetual
-                  platforms firsthand - from clunky interfaces to missing
-                  crucial features. That's why we've built a seamless trading
-                  experience that addresses all these pain points, giving you
-                  the tools you need exactly where and how you expect them.
+                  Experience professional-grade trading with advanced features:
+                  Live TradingView charts that auto-save your setups (indicators
+                  & drawings persist between sessions), and smart order
+                  management with multiple take-profit and stop-loss levels.
+                  Trade with the precision of a CEX while keeping full control
+                  of your assets.
                 </FontSmall>
                 <FontSmall className="text-lg mt-10 text-white font-medium">
                   Learn more +
@@ -234,6 +199,51 @@ const Home: FC = () => {
               </div>
             </div>
           </div>
+          <section className="pb-[50px] pt-[200px] relative overflow-hidden">
+            <div className="max-w-[1500px] w-[90%] mx-auto ">
+              <div className="flex justify-between">
+                <div>
+                  <FontLarge className="font-bold mt-[40px] text-7xl mb-5 text-white">
+                    Trade cryptos <br />
+                    Across any chain
+                  </FontLarge>
+                  <FontSmall className="max-w-[700px] text-xl">
+                    Experience seamless perpetual trading across multiple
+                    blockchain ecosystems. Our platform supports major chains
+                    like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade
+                    perpetual contracts with precision, speed, and security, all
+                    while enjoying the freedom of cross-chain interoperability.
+                  </FontSmall>
+                  <div className="flex gap-[100px] mt-[100px]">
+                    <div className="w-fit ">
+                      <H2 className="text-9xl font-bold">9+</H2>
+                      <FontLarge>Total chains available</FontLarge>
+                      <Link href={""} className="text-font-80">
+                        <FontMedium className="mt-10">
+                          Explore chains +
+                        </FontMedium>
+                      </Link>
+                    </div>
+                    <div className="w-fit ">
+                      <H2 className="text-9xl font-bold">9+</H2>
+                      <FontLarge>Total chains available</FontLarge>
+                      <Link href={""} className="text-font-80">
+                        <FontMedium className="mt-10">
+                          Explore chains +
+                        </FontMedium>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/assets/chains-token.png"
+                    className="w-[600px]  mr-10"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
 
           {/* <spline-viewer
           className="absolute"
@@ -255,13 +265,13 @@ const Home: FC = () => {
             <H2 className="max-w-[680px] text-white uppercase">
               Some Stats About VeenoX alpha
             </H2>
-            <FontSmall className="max-w-[400px] mt-1.5">
+            <FontSmall className="max-w-[500px] mt-1.5">
               VeenoX has improved the trading experience of more than 40 traders
               who asked for the best trading platform with CEX like experience
             </FontSmall>
           </div>
           <div className="flex justify-between">
-            <div className="flex justify-between mt-[70px] w-[62%] flex-wrap">
+            <div className="flex justify-between mt-[50px] w-[62%] flex-wrap">
               {stats.map(({ tag, value, description }, i) => (
                 <BoxStat
                   key={i}
@@ -271,7 +281,7 @@ const Home: FC = () => {
                 />
               ))}
             </div>{" "}
-            <div className="w-[35%] min-w-[400px] max-w-[520px] mt-10">
+            <div className="w-[35%] min-w-[400px] mr-10 max-w-[450px] mt-0">
               {/* <Spline
                 scene="https://prod.spline.design/FIqOZxbFa1GrmvKD/scene.splinecode"
                 width={600}
