@@ -2,19 +2,19 @@ export const insights = [
   {
     title: "Unified Orderbook & Liquidity",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?",
+      "Unified orderbook aggregating liquidity across multiple chains ensures best execution and minimal slippage for all your trades.",
     icon: "/assets/cube.png",
   },
   {
     title: "One-Click Trading Experience",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?",
+      "Lightning-fast one-click trading with instant execution - place orders and manage positions at the speed of thought.",
     icon: "/assets/volt.png",
   },
   {
-    title: "CEX-level Performance",
+    title: "Competitive trading fees",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Moque animi?",
+      "Trade with ultra-low fees and earn extra rebates through our tiered fee structure and our Discord trading roles program.",
     icon: "/assets/trophee.png",
   },
 ];

@@ -16,11 +16,11 @@ export const BoxInsight: FC<BoxInsightType> = ({
   return (
     <div className="w-[33%]">
       <Image
-        height={50}
-        width={50}
+        height={80}
+        width={80}
         src={icon}
         alt={`${title} icon`}
-        className="object-cover min-h-[50px] w-auto max-h-[50px]"
+        className="object-cover min-h-[80px] w-auto max-h-[80px]"
       />
       <FontLarge className="font-semibold mt-6 mb-4">{title}</FontLarge>
       <FontSmall className="font-normal">{description}</FontSmall>
