@@ -87,27 +87,22 @@ const Home: FC = () => {
       <div className="relative overflow-x-hidden">
         <section className="pb-[120px] pt-[160px] relative">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
-            <div className="flex items-center">
-              <span className="h-3 w-3 rounded-full bg-font-80 mr-3" />
-              <FontMedium className="uppercase">Features</FontMedium>
-            </div>
-            <div className="flex items-start mt-6 justify-between">
-              <H2 className="max-w-[740px] text-white uppercase">
-                Level up your trading experience on DEX
+            <div className="flex items-start mb-10 justify-between">
+              <H2 className="text-7xl leading-tight font-bold">
+                Level up your trading <br />
+                experience
               </H2>
-              <FontSmall className="max-w-[480px] mt-1.5">
-                Trade on a DEX without sacrificing the power of CEX features.
-                Experience institutional-grade tools with unmatched performance
-                and sovereignty.
-              </FontSmall>
+
+              <img className="w-[800px]" src="/assets/rocket.png" />
             </div>
-            <div className="flex justify-between mt-[120px]">
+            <div className="flex justify-between mt-[250px]">
               {insights.map(({ title, icon, description }, i) => (
                 <BoxInsight
                   key={i}
                   icon={icon}
                   title={title}
                   description={description}
+                  index={i}
                 />
               ))}
             </div>{" "}
@@ -136,7 +131,7 @@ const Home: FC = () => {
                   src="/assets/tokens.png"
                   className="w-[500px] -mt-[100px]"
                 />
-                <H2 className="text-9xl font-bold">
+                <H2 className="text-9xl mr-[100px] font-bold">
                   110<span>+</span>
                 </H2>
                 <FontLarge>Total pairs available</FontLarge>
@@ -224,12 +219,12 @@ const Home: FC = () => {
                         </FontMedium>
                       </Link>
                     </div>
-                    <div className="w-fit ">
-                      <H2 className="text-9xl font-bold">9+</H2>
-                      <FontLarge>Total chains available</FontLarge>
+                    <div className="w-fit mt-[200px]">
+                      <H2 className="text-9xl font-bold">10M+</H2>
+                      <FontLarge>Volume traded in alpha</FontLarge>
                       <Link href={""} className="text-font-80">
                         <FontMedium className="mt-10">
-                          Explore chains +
+                          Start trading +
                         </FontMedium>
                       </Link>
                     </div>
@@ -238,7 +233,7 @@ const Home: FC = () => {
                 <div>
                   <img
                     src="/assets/chains-token.png"
-                    className="w-[600px]  mr-10"
+                    className="w-[700px]  mr-10"
                   />
                 </div>
               </div>

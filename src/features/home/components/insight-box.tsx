@@ -6,15 +6,22 @@ type BoxInsightType = {
   title: string;
   description: string;
   icon: string;
+  index: number;
 };
 
 export const BoxInsight: FC<BoxInsightType> = ({
   title,
   description,
   icon,
+  index,
 }) => {
   return (
-    <div className="w-[33%]">
+    <div
+      className="w-[30%]"
+      style={{
+        marginTop: (index + 1) * -70,
+      }}
+    >
       <Image
         height={80}
         width={80}
