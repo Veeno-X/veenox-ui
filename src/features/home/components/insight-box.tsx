@@ -17,7 +17,7 @@ export const BoxInsight: FC<BoxInsightType> = ({
 }) => {
   return (
     <div
-      className="w-[30%]"
+      className="w-[30%] bg-secondary border border-borderColor-DARK rounded-2xl h-fit p-10"
       style={{
         marginTop: (index + 1) * -70,
       }}

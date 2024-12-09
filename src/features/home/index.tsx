@@ -21,23 +21,15 @@ const Home: FC = () => {
     <main>
       <section className="h-[90vh] pt-[120px] w-screen flex items-center bg-[url('/layers/test.png')] bg-center bg-cover  overflow-hidden">
         <div className="flex max-w-[1500px] w-[90%] items-center justify-between mx-auto z-[100] pointer-events-none">
-          <div className="">
-            <div
-              className="overflow-hidden block relative md:whitespace-nowrap
-               text-4xl lg:text-[80px] leading-[90px] font-extrabold w-auto font-poppins text-white  text-start"
-            >
-              CEX Trading Exp <br />
-              Trading Academy
-            </div>
-            <div className="flex w-full jusitfy-start">
-              <p className="text-sm lg:text-2xl text-font-80 font-normal text-start mt-3 lg:mt-7 max-w-[450px] lg:max-w-[800px]">
-                Learn crypto trading through interactive experiences, not
-                endless videos. VeenoX combines a professional perpetual DEX
-                with innovative learn-to-earn features. Master trading patterns,
-                practice in real-time, earn rewards.
-              </p>
-            </div>
-            <div className="flex items-center w-fit justify-start">
+          <div className="flex justify-between">
+            <div className="max-w-[840px]">
+              <H2 className="text-7xl leading-tight font-bold">
+                VeenoX First perp DEX with unique Trading Academy
+              </H2>
+              <FontMedium className="text-font-70 mt-10 max-w-[500px] leading-normal">
+                Exchange data, value and tokens with the world(s most secure and
+                wideladopted cross-chain messaging protocol
+              </FontMedium>
               <button className="mt-7 lg:mt-[50px] h-[40px] lg:h-[50px] px-2 lg:px-3 rounded-full mx-auto text-white text-lg mr-auto cursor-pointer bg-[#836EF9]">
                 <Link href="/perp/PERP_BTC_USDC" className="w-full h-full">
                   <div className="flex items-center justify-center text-white font-medium w-full text-sm lg:text-lg h-full px-3 lg:px-4 py-1.5 lg:py-2">
@@ -45,52 +37,26 @@ const Home: FC = () => {
                   </div>
                 </Link>
               </button>
-              {/* <button
-                variants={{
-                  hidden: {
-                    opacity: 0,
-                    y: 10,
-                  },
-                  visible: {
-                    opacity: 1,
-                    y: 0,
-                  },
-                }}
-                initial="visible"
-                animate={mainControls}
-                transition={{
-                  duration: 0.3,
-                  delay: 0.9,
-                }}
-                className="mt-7 lg:mt-[50px] h-[40px] lg:h-[50px] px-2 lg:px-3 ml-4 lg:ml-5 rounded-full mx-auto text-base_color text-lg mr-auto cursor-pointer border border-base_color"
-              >
-                <Link href="/perp/PERP_BTC_USDC" className="w-full h-full">
-                  <div className="flex items-center justify-center w-full text-sm lg:text-lg h-full px-3 lg:px-4 py-1.5 lg:py-2">
-                    Learn More
-                  </div>
-                </Link>
-              </button> */}
-            </div>{" "}
-          </div>
-          <div className="h-[600px] relative">
-            <img
-              src="/assets/logo.png"
-              className="w-[550px] min-w-[550px] animate-float"
-            />
-            <img
-              src="/assets/base.png"
-              className="absolute w-[550px] min-w-[550px] -bottom-[280px]"
-            />
+            </div>
+            <div className="">
+              <img
+                src="/assets/logo.png"
+                className="w-[550px] min-w-[550px] animate-float"
+              />
+              <FontMedium className="text-font-70 mt-10 max-w-[500px] leading-normal">
+                Powered By Monad and Orderly network
+              </FontMedium>
+              {/* <H2 className="text-9xl mr-[100px] font-bold">Powered by</H2> */}
+            </div>
           </div>
         </div>
       </section>
       <div className="relative overflow-x-hidden">
         <section className="pb-[120px] pt-[160px] relative">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
-            <div className="flex items-start mb-10 justify-between">
-              <H2 className="text-7xl leading-tight font-bold">
-                Level up your trading <br />
-                experience
+            <div className="flex items-start justify-between">
+              <H2 className="text-7xl leading-tight  font-bold">
+                Level up your trading experience on perp DEX
               </H2>
 
               <img className="w-[800px]" src="/assets/rocket.png" />
@@ -198,11 +164,11 @@ const Home: FC = () => {
             <div className="max-w-[1500px] w-[90%] mx-auto ">
               <div className="flex justify-between">
                 <div>
-                  <FontLarge className="font-bold mt-[40px] text-7xl mb-5 text-white">
+                  <FontLarge className="font-bold mt-[40px] text-7xl mb-10 leading-tight text-white">
                     Trade cryptos <br />
                     Across any chain
                   </FontLarge>
-                  <FontSmall className="max-w-[700px] text-xl">
+                  <FontSmall className="max-w-[700px] text-2xl">
                     Experience seamless perpetual trading across multiple
                     blockchain ecosystems. Our platform supports major chains
                     like Monad, Ethereum, Arbitrum, Sei, Solana, and more. Trade
@@ -254,6 +220,87 @@ const Home: FC = () => {
           className="absolute scale-x-[-1] -rotate-45 h-[250vh] -top-[80vh] object-contain -left-[20%]"
         />
       </div>
+      <section className="py-[200px] pt-10 relative overflow-hidden">
+        <div className="max-w-[1500px] w-[90%] mx-auto ">
+          <H2 className="text-7xl leading-tight font-bold text-center mb-[100px]">
+            Trading Academy
+          </H2>
+          <div className="flex gap-10 mb-10">
+            <div className="rounded-2xl bg-secondary h-[500px] p-10 w-1/2 border border-borderColor-DARK">
+              <img
+                height={80}
+                width={80}
+                src="/assets/chart.png"
+                alt={`${""} icon`}
+                className="object-cover mb-10 min-h-[80px] w-auto max-h-[80px]"
+              />
+              <FontLarge className="font-bold  mb-5 text-white">
+                UI/UX Crafted <br />
+                by traders, for traders
+              </FontLarge>
+              <FontSmall className="text-lg">
+                Clean and powerful UI/UX crafted by traders, for traders. We've
+                experienced the frustrations across various perpetual platforms
+                firsthand - from clunky interfaces to missing crucial features.
+                That's why we've built a seamless trading experience that
+                addresses all these pain points, giving you the tools you need
+                exactly where and how you expect them.
+              </FontSmall>
+              <FontSmall className="text-lg mt-10 text-white font-medium">
+                Learn more +
+              </FontSmall>
+            </div>
+            <div className="rounded-2xl bg-secondary h-[500px] p-10 w-1/2 border border-borderColor-DARK">
+              <img
+                height={80}
+                width={80}
+                src="/assets/chart.png"
+                alt={`${""} icon`}
+                className="object-cover mb-10 min-h-[80px] w-auto max-h-[80px]"
+              />
+              <FontLarge className="font-bold  mb-5 text-white">
+                UI/UX Crafted <br />
+                by traders, for traders
+              </FontLarge>
+              <FontSmall className="text-lg">
+                Clean and powerful UI/UX crafted by traders, for traders. We've
+                experienced the frustrations across various perpetual platforms
+                firsthand - from clunky interfaces to missing crucial features.
+                That's why we've built a seamless trading experience that
+                addresses all these pain points, giving you the tools you need
+                exactly where and how you expect them.
+              </FontSmall>
+              <FontSmall className="text-lg mt-10 text-white font-medium">
+                Learn more +
+              </FontSmall>
+            </div>
+          </div>
+          <div className="rounded-2xl bg-secondary h-[500px] p-10 w-full border border-borderColor-DARK">
+            <img
+              height={80}
+              width={80}
+              src="/assets/chart.png"
+              alt={`${""} icon`}
+              className="object-cover min-h-[80px] mb-10 w-auto max-h-[80px]"
+            />
+            <FontLarge className="font-bold  mb-5 text-white">
+              UI/UX Crafted <br />
+              by traders, for traders
+            </FontLarge>
+            <FontSmall className="text-lg">
+              Clean and powerful UI/UX crafted by traders, for traders. We've
+              experienced the frustrations across various perpetual platforms
+              firsthand - from clunky interfaces to missing crucial features.
+              That's why we've built a seamless trading experience that
+              addresses all these pain points, giving you the tools you need
+              exactly where and how you expect them.
+            </FontSmall>
+            <FontSmall className="text-lg mt-10 text-white font-medium">
+              Learn more +
+            </FontSmall>
+          </div>
+        </div>
+      </section>
       <section className="pt-[130px] pb-[90px] relative bg-[url('/layers/test-2.png')] bg-center bg-cover">
         <div className="max-w-[1500px] w-[90%] mx-auto ">
           <div className="flex items-start justify-between">
