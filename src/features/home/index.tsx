@@ -222,23 +222,27 @@ const Home: FC = () => {
       </div>
       <section className="py-[200px] pt-10 relative overflow-hidden">
         <div className="max-w-[1500px] w-[90%] mx-auto ">
-          <H2 className="text-7xl leading-tight font-bold text-center mb-[100px]">
-            Trading Academy
-          </H2>
-          <div className="flex gap-10 mb-10">
-            <div className="rounded-2xl bg-secondary h-[500px] p-10 w-1/2 border border-borderColor-DARK">
-              <img
-                height={80}
-                width={80}
-                src="/assets/chart.png"
-                alt={`${""} icon`}
-                className="object-cover mb-10 min-h-[80px] w-auto max-h-[80px]"
-              />
-              <FontLarge className="font-bold  mb-5 text-white">
-                UI/UX Crafted <br />
-                by traders, for traders
-              </FontLarge>
-              <FontSmall className="text-lg">
+          <div className="flex gap-10 justify-between items-center mb-10">
+            <div className="pr-10 h-[730px]">
+              {/* <Spline
+                scene="https://prod.spline.design/FIqOZxbFa1GrmvKD/scene.splinecode"
+                width={600}
+                height={600}
+              /> */}
+              <Spline scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode" />
+              {/* <Image
+                src="/assets/exemple.jpeg"
+                alt="test image"
+                height={300}
+                width={300}
+                className="object-cover object-center rounded-md h-[400px] w-full"
+              /> */}
+            </div>
+            <div className="w-1/2 max-w-1/2">
+              <H2 className="font-bold text-7xl leading-tight mb-10 text-white">
+                Learn to trade, earn & competition tiers.
+              </H2>
+              <FontSmall className="text-2xl">
                 Clean and powerful UI/UX crafted by traders, for traders. We've
                 experienced the frustrations across various perpetual platforms
                 firsthand - from clunky interfaces to missing crucial features.
@@ -246,58 +250,33 @@ const Home: FC = () => {
                 addresses all these pain points, giving you the tools you need
                 exactly where and how you expect them.
               </FontSmall>
-              <FontSmall className="text-lg mt-10 text-white font-medium">
-                Learn more +
-              </FontSmall>
+              <div className="flex gap-10 mt-[60px]">
+                <div className="w-1/2 border-t-2 py-5 border-borderColor">
+                  <FontLarge className="font-bold  mb-5 text-white">
+                    Equitable
+                  </FontLarge>
+                  <FontSmall className="text-lg">
+                    Clean and powerful UI/UX crafted by traders, for traders.
+                  </FontSmall>
+                </div>
+                <div className="w-1/2  border-t-2 py-5 border-borderColor">
+                  <FontLarge className="font-bold  mb-5 text-white">
+                    Intuitive
+                  </FontLarge>
+                  <FontSmall className="text-lg">
+                    Clean and powerful UI/UX crafted by traders, for traders.
+                  </FontSmall>
+                </div>
+              </div>
+              <div className="w-full border-t-2 py-5 mt-10 border-borderColor">
+                <FontLarge className="font-bold  mb-5 text-white">
+                  Intuitive
+                </FontLarge>
+                <FontSmall className="text-lg">
+                  Clean and powerful UI/UX crafted by traders, for traders.
+                </FontSmall>
+              </div>
             </div>
-            <div className="rounded-2xl bg-secondary h-[500px] p-10 w-1/2 border border-borderColor-DARK">
-              <img
-                height={80}
-                width={80}
-                src="/assets/chart.png"
-                alt={`${""} icon`}
-                className="object-cover mb-10 min-h-[80px] w-auto max-h-[80px]"
-              />
-              <FontLarge className="font-bold  mb-5 text-white">
-                UI/UX Crafted <br />
-                by traders, for traders
-              </FontLarge>
-              <FontSmall className="text-lg">
-                Clean and powerful UI/UX crafted by traders, for traders. We've
-                experienced the frustrations across various perpetual platforms
-                firsthand - from clunky interfaces to missing crucial features.
-                That's why we've built a seamless trading experience that
-                addresses all these pain points, giving you the tools you need
-                exactly where and how you expect them.
-              </FontSmall>
-              <FontSmall className="text-lg mt-10 text-white font-medium">
-                Learn more +
-              </FontSmall>
-            </div>
-          </div>
-          <div className="rounded-2xl bg-secondary h-[500px] p-10 w-full border border-borderColor-DARK">
-            <img
-              height={80}
-              width={80}
-              src="/assets/chart.png"
-              alt={`${""} icon`}
-              className="object-cover min-h-[80px] mb-10 w-auto max-h-[80px]"
-            />
-            <FontLarge className="font-bold  mb-5 text-white">
-              UI/UX Crafted <br />
-              by traders, for traders
-            </FontLarge>
-            <FontSmall className="text-lg">
-              Clean and powerful UI/UX crafted by traders, for traders. We've
-              experienced the frustrations across various perpetual platforms
-              firsthand - from clunky interfaces to missing crucial features.
-              That's why we've built a seamless trading experience that
-              addresses all these pain points, giving you the tools you need
-              exactly where and how you expect them.
-            </FontSmall>
-            <FontSmall className="text-lg mt-10 text-white font-medium">
-              Learn more +
-            </FontSmall>
           </div>
         </div>
       </section>

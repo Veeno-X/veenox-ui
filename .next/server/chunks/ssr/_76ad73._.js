@@ -332,7 +332,7 @@ const Home = ()=>{
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontMedium"], {
                                         className: "text-font-70 mt-10 max-w-[500px] leading-normal",
-                                        children: "Powered By Monad"
+                                        children: "Powered By Monad and Orderly network"
                                     }, void 0, false, {
                                         fileName: "[project]/src/features/home/index.tsx",
                                         lineNumber: 46,
@@ -851,182 +851,139 @@ const Home = ()=>{
                 className: "py-[200px] pt-10 relative overflow-hidden",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-[1500px] w-[90%] mx-auto ",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
-                            className: "text-7xl leading-tight font-bold text-center mb-[100px]",
-                            children: "Trading Academy"
-                        }, void 0, false, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 225,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex gap-10 mb-10",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "rounded-2xl bg-secondary h-[500px] p-10 w-1/2 border border-borderColor-DARK",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            height: 80,
-                                            width: 80,
-                                            src: "/assets/chart.png",
-                                            alt: `${""} icon`,
-                                            className: "object-cover mb-10 min-h-[80px] w-auto max-h-[80px]"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 230,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                            className: "font-bold  mb-5 text-white",
-                                            children: [
-                                                "UI/UX Crafted ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 238,
-                                                    columnNumber: 31
-                                                }, this),
-                                                "by traders, for traders"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 237,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                            className: "text-lg",
-                                            children: "Clean and powerful UI/UX crafted by traders, for traders. We've experienced the frustrations across various perpetual platforms firsthand - from clunky interfaces to missing crucial features. That's why we've built a seamless trading experience that addresses all these pain points, giving you the tools you need exactly where and how you expect them."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 241,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                            className: "text-lg mt-10 text-white font-medium",
-                                            children: "Learn more +"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 249,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex gap-10 justify-between items-center mb-10",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "pr-10 h-[730px]",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$splinetool$2f$react$2d$spline$2f$dist$2f$react$2d$spline$2d$next$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    scene: "https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode"
+                                }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 229,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "rounded-2xl bg-secondary h-[500px] p-10 w-1/2 border border-borderColor-DARK",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            height: 80,
-                                            width: 80,
-                                            src: "/assets/chart.png",
-                                            alt: `${""} icon`,
-                                            className: "object-cover mb-10 min-h-[80px] w-auto max-h-[80px]"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 254,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                            className: "font-bold  mb-5 text-white",
-                                            children: [
-                                                "UI/UX Crafted ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/src/features/home/index.tsx",
-                                                    lineNumber: 262,
-                                                    columnNumber: 31
-                                                }, this),
-                                                "by traders, for traders"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 261,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                            className: "text-lg",
-                                            children: "Clean and powerful UI/UX crafted by traders, for traders. We've experienced the frustrations across various perpetual platforms firsthand - from clunky interfaces to missing crucial features. That's why we've built a seamless trading experience that addresses all these pain points, giving you the tools you need exactly where and how you expect them."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 265,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                            className: "text-lg mt-10 text-white font-medium",
-                                            children: "Learn more +"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 273,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 253,
-                                    columnNumber: 13
+                                    lineNumber: 232,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 228,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "rounded-2xl bg-secondary h-[500px] p-10 w-full border border-borderColor-DARK",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    height: 80,
-                                    width: 80,
-                                    src: "/assets/chart.png",
-                                    alt: `${""} icon`,
-                                    className: "object-cover min-h-[80px] mb-10 w-auto max-h-[80px]"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 279,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
-                                    className: "font-bold  mb-5 text-white",
-                                    children: [
-                                        "UI/UX Crafted ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                            fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 287,
-                                            columnNumber: 29
-                                        }, this),
-                                        "by traders, for traders"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 286,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                    className: "text-lg",
-                                    children: "Clean and powerful UI/UX crafted by traders, for traders. We've experienced the frustrations across various perpetual platforms firsthand - from clunky interfaces to missing crucial features. That's why we've built a seamless trading experience that addresses all these pain points, giving you the tools you need exactly where and how you expect them."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 290,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
-                                    className: "text-lg mt-10 text-white font-medium",
-                                    children: "Learn more +"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 298,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 278,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/features/home/index.tsx",
+                                lineNumber: 226,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-1/2 max-w-1/2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["H2"], {
+                                        className: "font-bold text-7xl leading-tight mb-10 text-white",
+                                        children: "Learn to trade, earn & competition tiers."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/features/home/index.tsx",
+                                        lineNumber: 242,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                        className: "text-2xl",
+                                        children: "Clean and powerful UI/UX crafted by traders, for traders. We've experienced the frustrations across various perpetual platforms firsthand - from clunky interfaces to missing crucial features. That's why we've built a seamless trading experience that addresses all these pain points, giving you the tools you need exactly where and how you expect them."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/features/home/index.tsx",
+                                        lineNumber: 245,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex gap-10 mt-[60px]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-1/2 border-t-2 py-5 border-borderColor",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                        className: "font-bold  mb-5 text-white",
+                                                        children: "Equitable"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/features/home/index.tsx",
+                                                        lineNumber: 255,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                        className: "text-lg",
+                                                        children: "Clean and powerful UI/UX crafted by traders, for traders."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/features/home/index.tsx",
+                                                        lineNumber: 258,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/features/home/index.tsx",
+                                                lineNumber: 254,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-1/2  border-t-2 py-5 border-borderColor",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                        className: "font-bold  mb-5 text-white",
+                                                        children: "Intuitive"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/features/home/index.tsx",
+                                                        lineNumber: 263,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                        className: "text-lg",
+                                                        children: "Clean and powerful UI/UX crafted by traders, for traders."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/features/home/index.tsx",
+                                                        lineNumber: 266,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/features/home/index.tsx",
+                                                lineNumber: 262,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/features/home/index.tsx",
+                                        lineNumber: 253,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "w-full border-t-2 py-5 mt-10 border-borderColor",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontLarge"], {
+                                                className: "font-bold  mb-5 text-white",
+                                                children: "Intuitive"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/features/home/index.tsx",
+                                                lineNumber: 272,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
+                                                className: "text-lg",
+                                                children: "Clean and powerful UI/UX crafted by traders, for traders."
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/features/home/index.tsx",
+                                                lineNumber: 275,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/features/home/index.tsx",
+                                        lineNumber: 271,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/features/home/index.tsx",
+                                lineNumber: 241,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/features/home/index.tsx",
+                        lineNumber: 225,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/src/features/home/index.tsx",
                     lineNumber: 224,
                     columnNumber: 9
@@ -1049,7 +1006,7 @@ const Home = ()=>{
                                     children: "Some Stats About VeenoX alpha"
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 286,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$fonts$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FontSmall"], {
@@ -1057,13 +1014,13 @@ const Home = ()=>{
                                     children: "VeenoX has improved the trading experience of more than 40 traders who asked for the best trading platform with CEX like experience"
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 310,
+                                    lineNumber: 289,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 306,
+                            lineNumber: 285,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1077,12 +1034,12 @@ const Home = ()=>{
                                             description: description
                                         }, i, false, {
                                             fileName: "[project]/src/features/home/index.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 297,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 316,
+                                    lineNumber: 295,
                                     columnNumber: 13
                                 }, this),
                                 " ",
@@ -1092,29 +1049,29 @@ const Home = ()=>{
                                         scene: "https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode"
                                     }, void 0, false, {
                                         fileName: "[project]/src/features/home/index.tsx",
-                                        lineNumber: 332,
+                                        lineNumber: 311,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/features/home/index.tsx",
-                                    lineNumber: 326,
+                                    lineNumber: 305,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/features/home/index.tsx",
-                            lineNumber: 315,
+                            lineNumber: 294,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/features/home/index.tsx",
-                    lineNumber: 305,
+                    lineNumber: 284,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/features/home/index.tsx",
-                lineNumber: 304,
+                lineNumber: 283,
                 columnNumber: 7
             }, this)
         ]
