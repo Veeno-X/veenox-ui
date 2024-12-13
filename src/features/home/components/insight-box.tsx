@@ -13,15 +13,9 @@ export const BoxInsight: FC<BoxInsightType> = ({
   title,
   description,
   icon,
-  index,
 }) => {
   return (
-    <div
-      className="w-[30%] bg-secondary border border-borderColor-DARK rounded-2xl h-fit p-10"
-      style={{
-        marginTop: (index + 1) * -70,
-      }}
-    >
+    <div className="w-[30%] bg-secondary border border-borderColor-DARK rounded-2xl h-fit p-10">
       <Image
         height={80}
         width={80}

@@ -1,10 +1,9 @@
+"use client";
 import { FontLarge, FontMedium, FontSmall, H2 } from "@/components/fonts";
-import { insights, stats } from "@/constants";
-import Spline from "@splinetool/react-spline/next";
+import { insights } from "@/constants";
 import Link from "next/link";
 import { FC } from "react";
 import { BoxInsight } from "./components/insight-box";
-import { BoxStat } from "./components/stat-box";
 
 const Home: FC = () => {
   // try {
@@ -54,14 +53,15 @@ const Home: FC = () => {
       <div className="relative overflow-x-hidden">
         <section className="pb-[120px] pt-[160px] relative">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
-            <div className="flex items-start justify-between">
+            <div className="">
               <H2 className="text-7xl leading-tight  font-bold">
-                Level up your trading experience on perp DEX
+                Level up your trading
               </H2>
-
-              <img className="w-[800px]" src="/assets/rocket.png" />
+              <H2 className="text-7xl ml-[100px] leading-tight text-font-80 font-bold">
+                experience on perp DEX
+              </H2>
             </div>
-            <div className="flex justify-between mt-[250px]">
+            <div className="flex justify-between mt-[100px]">
               {insights.map(({ title, icon, description }, i) => (
                 <BoxInsight
                   key={i}
@@ -73,15 +73,11 @@ const Home: FC = () => {
               ))}
             </div>{" "}
           </div>{" "}
-          {/* <img
-            src="/layers/test-3.png"
-            className="absolute -top-[40%] object-cover left-0 "
-          /> */}
         </section>
         <section className="py-[200px] relative overflow-hidden">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
             <div className="flex justify-between">
-              <div className="mb-[300px] max-w-[840px]">
+              <div className="mb-[200px] max-w-[840px]">
                 <H2 className="text-7xl leading-tight font-bold">
                   VeenoX: your protocol's connection to the global digital{" "}
                   <br />
@@ -92,18 +88,20 @@ const Home: FC = () => {
                   and wideladopted cross-chain messaging protocol
                 </FontMedium>
               </div>
-              <div className="">
+              <div className="relative">
                 <img
                   src="/assets/tokens.png"
                   className="w-[500px] -mt-[100px]"
                 />
-                <H2 className="text-9xl mr-[100px] font-bold">
-                  110<span>+</span>
-                </H2>
-                <FontLarge>Total pairs available</FontLarge>
-                <Link href={""} className="text-font-80">
-                  <FontMedium className="mt-10">Explore tokens +</FontMedium>
-                </Link>
+                <div className="mr-auto absolute bottom-[18%] -left-[35%]">
+                  <H2 className="text-9xl mr-[100px] font-bold">
+                    110<span>+</span>
+                  </H2>
+                  <FontLarge>Total pairs available</FontLarge>
+                  <Link href={""} className="text-font-80">
+                    <FontMedium className="mt-10">Explore tokens +</FontMedium>
+                  </Link>{" "}
+                </div>
               </div>
             </div>
             <div className="flex gap-10">
@@ -220,16 +218,16 @@ const Home: FC = () => {
           className="absolute scale-x-[-1] -rotate-45 h-[250vh] -top-[80vh] object-contain -left-[20%]"
         />
       </div>
-      <section className="py-[200px] pt-10 relative overflow-hidden">
+      <section className="py-[200px] pt-0 relative overflow-hidden">
         <div className="max-w-[1500px] w-[90%] mx-auto ">
           <div className="flex gap-10 justify-between items-center mb-10">
-            <div className="pr-10 h-[730px]">
+            <div className="pr-10 h-[680px]">
               {/* <Spline
                 scene="https://prod.spline.design/FIqOZxbFa1GrmvKD/scene.splinecode"
                 width={600}
                 height={600}
               /> */}
-              <Spline scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode" />
+              {/* <Spline scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode" /> */}
               {/* <Image
                 src="/assets/exemple.jpeg"
                 alt="test image"
@@ -239,10 +237,10 @@ const Home: FC = () => {
               /> */}
             </div>
             <div className="w-1/2 max-w-1/2">
-              <H2 className="font-bold text-7xl leading-tight mb-10 text-white">
+              <H2 className="font-bold text-6xl leading-tight mb-8 text-white">
                 Learn to trade, earn & competition tiers.
               </H2>
-              <FontSmall className="text-2xl">
+              <FontSmall className="text-xl">
                 Clean and powerful UI/UX crafted by traders, for traders. We've
                 experienced the frustrations across various perpetual platforms
                 firsthand - from clunky interfaces to missing crucial features.
@@ -250,9 +248,9 @@ const Home: FC = () => {
                 addresses all these pain points, giving you the tools you need
                 exactly where and how you expect them.
               </FontSmall>
-              <div className="flex gap-10 mt-[60px]">
+              <div className="flex gap-10 mt-[50px]">
                 <div className="w-1/2 border-t-2 py-5 border-borderColor">
-                  <FontLarge className="font-bold  mb-5 text-white">
+                  <FontLarge className="font-bold  mb-3 text-white">
                     Equitable
                   </FontLarge>
                   <FontSmall className="text-lg">
@@ -260,7 +258,7 @@ const Home: FC = () => {
                   </FontSmall>
                 </div>
                 <div className="w-1/2  border-t-2 py-5 border-borderColor">
-                  <FontLarge className="font-bold  mb-5 text-white">
+                  <FontLarge className="font-bold  mb-3 text-white">
                     Intuitive
                   </FontLarge>
                   <FontSmall className="text-lg">
@@ -268,54 +266,14 @@ const Home: FC = () => {
                   </FontSmall>
                 </div>
               </div>
-              <div className="w-full border-t-2 py-5 mt-10 border-borderColor">
-                <FontLarge className="font-bold  mb-5 text-white">
+              <div className="w-full border-t-2 py-5 mt-8 border-borderColor">
+                <FontLarge className="font-bold  mb-3 text-white">
                   Intuitive
                 </FontLarge>
                 <FontSmall className="text-lg">
                   Clean and powerful UI/UX crafted by traders, for traders.
                 </FontSmall>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="pt-[130px] pb-[90px] relative bg-[url('/layers/test-2.png')] bg-center bg-cover">
-        <div className="max-w-[1500px] w-[90%] mx-auto ">
-          <div className="flex items-start justify-between">
-            <H2 className="max-w-[680px] text-white uppercase">
-              Some Stats About VeenoX alpha
-            </H2>
-            <FontSmall className="max-w-[500px] mt-1.5">
-              VeenoX has improved the trading experience of more than 40 traders
-              who asked for the best trading platform with CEX like experience
-            </FontSmall>
-          </div>
-          <div className="flex justify-between">
-            <div className="flex justify-between mt-[50px] w-[62%] flex-wrap">
-              {stats.map(({ tag, value, description }, i) => (
-                <BoxStat
-                  key={i}
-                  value={value}
-                  tag={tag}
-                  description={description}
-                />
-              ))}
-            </div>{" "}
-            <div className="w-[35%] min-w-[400px] mr-10 max-w-[450px] mt-0">
-              {/* <Spline
-                scene="https://prod.spline.design/FIqOZxbFa1GrmvKD/scene.splinecode"
-                width={600}
-                height={600}
-              /> */}
-              <Spline scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode" />
-              {/* <Image
-                src="/assets/exemple.jpeg"
-                alt="test image"
-                height={300}
-                width={300}
-                className="object-cover object-center rounded-md h-[400px] w-full"
-              /> */}
             </div>
           </div>
         </div>
