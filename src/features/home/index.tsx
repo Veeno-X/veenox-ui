@@ -6,16 +6,6 @@ import { FC } from "react";
 import { BoxInsight } from "./components/insight-box";
 
 const Home: FC = () => {
-  // try {
-  //   const viewer = document.querySelector("spline-viewer");
-  //   if (viewer)
-  //     viewer?.addEventListener("load", () => {
-  //       const canvas = viewer.querySelector("canvas");
-  //       canvas?.style.width = "400px";
-  //       canvas?.style.height = "400px";
-  //     });
-  // } catch (e) {}
-
   return (
     <main>
       <section className="h-[90vh] pt-[120px] w-screen flex items-center bg-[url('/layers/test.png')] bg-center bg-cover  overflow-hidden">
@@ -71,8 +61,8 @@ const Home: FC = () => {
                   index={i}
                 />
               ))}
-            </div>{" "}
-          </div>{" "}
+            </div>
+          </div>
         </section>
         <section className="py-[200px] relative overflow-hidden">
           <div className="max-w-[1500px] w-[90%] mx-auto ">
