@@ -8,35 +8,24 @@ import { BoxInsight } from "./components/insight-box";
 const Home: FC = () => {
   return (
     <main>
-      <section className="h-[90vh] pt-[120px] w-screen flex items-center bg-[url('/layers/test.png')] bg-center bg-cover  overflow-hidden">
+      <section className="h-[90vh] pt-[120px] w-screen flex items-center bg-[url('/layers/test-co.png')] bg-center bg-cover  overflow-hidden">
         <div className="flex max-w-[1500px] w-[90%] items-center justify-between mx-auto z-[100] pointer-events-none">
-          <div className="flex justify-between">
-            <div className="max-w-[840px]">
-              <H2 className="text-7xl leading-tight font-bold">
-                VeenoX First perp DEX with unique Trading Academy
-              </H2>
-              <FontMedium className="text-font-70 mt-10 max-w-[500px] leading-normal">
-                Exchange data, value and tokens with the world(s most secure and
-                wideladopted cross-chain messaging protocol
-              </FontMedium>
-              <button className="mt-7 lg:mt-[50px] h-[40px] lg:h-[50px] px-2 lg:px-3 rounded-full mx-auto text-white text-lg mr-auto cursor-pointer bg-[#836EF9]">
-                <Link href="/perp/PERP_BTC_USDC" className="w-full h-full">
-                  <div className="flex items-center justify-center text-white font-medium w-full text-sm lg:text-lg h-full px-3 lg:px-4 py-1.5 lg:py-2">
-                    Get Started
-                  </div>
-                </Link>
-              </button>
-            </div>
-            <div className="">
-              <img
-                src="/assets/logo.png"
-                className="w-[550px] min-w-[550px] animate-float"
-              />
-              <FontMedium className="text-font-70 mt-10 max-w-[500px] leading-normal">
-                Powered By Monad and Orderly network
-              </FontMedium>
-              {/* <H2 className="text-9xl mr-[100px] font-bold">Powered by</H2> */}
-            </div>
+          <div className="w-full flex flex-col items-center">
+            <H2 className="text-7xl leading-tight text-center font-bold">
+              First All-in-One DEX Unifying Crypto & Traditional Markets
+            </H2>
+            <FontMedium className="text-font-70 text-center mt-10 max-w-[900px] mx-auto leading-normal">
+              The first comprehensive perpetual DEX uniting traditional markets
+              and DeFi, combining professional trading tools with an innovative
+              learning ecosystem for all traders.
+            </FontMedium>
+            <button className="mt-7 lg:mt-[50px] h-[40px] lg:h-[50px] px-2 lg:px-3 rounded-lg mx-auto text-white font-bold text-lg cursor-pointer bg-[#836EF9]">
+              <Link href="/perp/PERP_BTC_USDC" className="w-full h-full">
+                <div className="flex items-center justify-center w-full text-sm lg:text-lg h-full px-3 lg:px-4 py-1.5 lg:py-2">
+                  Launch Alpha
+                </div>
+              </Link>
+            </button>
           </div>
         </div>
       </section>
@@ -69,13 +58,12 @@ const Home: FC = () => {
             <div className="flex justify-between">
               <div className="mb-[200px] max-w-[840px]">
                 <H2 className="text-7xl leading-tight font-bold">
-                  VeenoX: your protocol's connection to the global digital{" "}
-                  <br />
-                  economy
+                  Bringing crypto and traditional markets together, from Bitcoin
+                  to Gold and Stock Indices.
                 </H2>
                 <FontMedium className="text-font-70 mt-10 max-w-[500px] leading-normal">
-                  Exchange data, value and tokens with the world(s most secure
-                  and wideladopted cross-chain messaging protocol
+                  Experience professional-grade trading across all markets while
+                  learning from our integrated academy to enhance your skills.
                 </FontMedium>
               </div>
               <div className="relative">
@@ -131,16 +119,16 @@ const Home: FC = () => {
               </div>
               <div className="rounded-2xl bg-secondary h-[500px] p-10 w-[500px] border border-borderColor-DARK">
                 <FontLarge className="font-bold  mb-5 text-white">
-                  UI/UX Crafted <br />
-                  by traders, for traders
+                  Real World Assets <br />
+                  Trading
                 </FontLarge>
                 <FontSmall className="text-lg">
-                  Clean and powerful UI/UX crafted by traders, for traders.
-                  We've experienced the frustrations across various perpetual
-                  platforms firsthand - from clunky interfaces to missing
-                  crucial features. That's why we've built a seamless trading
-                  experience that addresses all these pain points, giving you
-                  the tools you need exactly where and how you expect them.
+                  VeenoX bridges traditional finance and DeFi through perpetual
+                  futures trading on real-world assets. Using Pyth Network's
+                  price feeds, traders can access synthetic versions of major
+                  commodities (Gold, Oil) and stock indices (S&P 500, CAC 40)
+                  while enjoying the benefits of decentralized trading - no KYC,
+                  lower fees, and 24/7 market access.
                 </FontSmall>
                 <FontSmall className="text-lg mt-10 text-white font-medium">
                   Learn more +
@@ -166,7 +154,7 @@ const Home: FC = () => {
                   <div className="flex gap-[100px] mt-[100px]">
                     <div className="w-fit ">
                       <H2 className="text-9xl font-bold">9+</H2>
-                      <FontLarge>Total chains available</FontLarge>
+                      <FontLarge>Chains available</FontLarge>
                       <Link href={""} className="text-font-80">
                         <FontMedium className="mt-10">
                           Explore chains +
@@ -211,57 +199,53 @@ const Home: FC = () => {
       <section className="py-[200px] pt-0 relative overflow-hidden">
         <div className="max-w-[1500px] w-[90%] mx-auto ">
           <div className="flex gap-10 justify-between items-center mb-10">
-            <div className="pr-10 h-[680px]">
-              {/* <Spline
-                scene="https://prod.spline.design/FIqOZxbFa1GrmvKD/scene.splinecode"
-                width={600}
-                height={600}
-              /> */}
-              {/* <Spline scene="https://prod.spline.design/kA0xD50BYojkl3zj/scene.splinecode" /> */}
-              {/* <Image
-                src="/assets/exemple.jpeg"
-                alt="test image"
-                height={300}
-                width={300}
-                className="object-cover object-center rounded-md h-[400px] w-full"
-              /> */}
+            <div className="rounded-2xl bg-secondary h-[550px] w-[550px] border border-borderColor-DARK">
+              <img
+                src="/assets/trading-ac.png"
+                className="object-cover h-full rounded-2xl"
+              />
             </div>
+
             <div className="w-1/2 max-w-1/2">
               <H2 className="font-bold text-6xl leading-tight mb-8 text-white">
                 Learn to trade, earn & competition tiers.
               </H2>
               <FontSmall className="text-xl">
-                Clean and powerful UI/UX crafted by traders, for traders. We've
-                experienced the frustrations across various perpetual platforms
-                firsthand - from clunky interfaces to missing crucial features.
-                That's why we've built a seamless trading experience that
-                addresses all these pain points, giving you the tools you need
-                exactly where and how you expect them.
+                Our integrated trading academy combines bite-sized lessons with
+                hands-on practice. Each completed lesson rewards you with points
+                and unlocks new features, helping you progress from beginner to
+                pro while earning rewards along the way.
               </FontSmall>
               <div className="flex gap-10 mt-[50px]">
                 <div className="w-1/2 border-t-2 py-5 border-borderColor">
                   <FontLarge className="font-bold  mb-3 text-white">
-                    Equitable
+                    Accessible
                   </FontLarge>
                   <FontSmall className="text-lg">
-                    Clean and powerful UI/UX crafted by traders, for traders.
+                    An intuitive learning path designed for all levels, from
+                    complete beginners to experienced traders wanting to refine
+                    their skills.
                   </FontSmall>
                 </div>
                 <div className="w-1/2  border-t-2 py-5 border-borderColor">
                   <FontLarge className="font-bold  mb-3 text-white">
-                    Intuitive
+                    Rewarding
                   </FontLarge>
                   <FontSmall className="text-lg">
-                    Clean and powerful UI/UX crafted by traders, for traders.
+                    Earn rewards and unlock features as you progress through the
+                    academy. Every lesson completed brings new benefits and
+                    opportunities.
                   </FontSmall>
                 </div>
               </div>
               <div className="w-full border-t-2 py-5 mt-8 border-borderColor">
                 <FontLarge className="font-bold  mb-3 text-white">
-                  Intuitive
+                  Community-Driven
                 </FontLarge>
                 <FontSmall className="text-lg">
-                  Clean and powerful UI/UX crafted by traders, for traders.
+                  Join a vibrant community of traders sharing the same journey.
+                  Participate in discussions, share insights, and learn from
+                  others' experiences while building your trading expertise.
                 </FontSmall>
               </div>
             </div>
