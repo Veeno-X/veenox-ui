@@ -1,4 +1,10 @@
 "use client";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/accordion";
 import { FontLarge, FontMedium, FontSmall, H2 } from "@/components/fonts";
 import { insights } from "@/constants";
 import Link from "next/link";
@@ -196,7 +202,7 @@ const Home: FC = () => {
           className="absolute scale-x-[-1] -rotate-45 h-[250vh] -top-[80vh] object-contain -left-[20%]"
         />
       </div>
-      <section className="py-[200px] pt-0 relative overflow-hidden">
+      <section className="py-[120px] relative overflow-hidden bg-[url('/layers/test-2.png')]">
         <div className="max-w-[1500px] w-[90%] mx-auto ">
           <div className="flex gap-10 justify-between items-center mb-10">
             <div className="rounded-2xl bg-secondary h-[550px] w-[550px] border border-borderColor-DARK">
@@ -252,6 +258,84 @@ const Home: FC = () => {
           </div>
         </div>
       </section>
+      <div
+        id="faq"
+        className="w-full h-fit flex flex-col items-center bg-[#15171B] py-[50px] lg:py-[150px]"
+      >
+        <div className="w-[90%] max-w-[1200px]">
+          <h2
+            className="overflow-hidden block relative lg:whitespace-nowrap
+           text-4xl lg:text-5xl font-bold mb-5 lg:mb-10 w-auto text-white"
+          >
+            Frequently <span className="text-base_color">Asked</span>
+          </h2>
+
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="item-1">
+              <AccordionTrigger>What is VeenoX?</AccordionTrigger>
+              <AccordionContent>
+                Veenox is a decentralized exchange that focuses on
+                orderbook-based trading, offering secure cryptocurrency trades
+                through the use of technology from Orderly Networks. It enables
+                real-time matching of buy and sell orders, promoting transparent
+                trading without centralized intermediaries, this empowering
+                users in the decentralized finance (DeFi) space.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>
+                VeenoX & Orderly Network&apos;s Partnership
+              </AccordionTrigger>
+              <AccordionContent>
+                VeenoX closely partners with Orderly Network, leveraging its
+                technology and core contracts, especially for trade settlements.
+                This collaboration ensures not only the technological
+                infrastructure behind VeenoX but also its liquidity foundation.
+                While VeenoX provides the platform for trading and transaction
+                coordination, Orderly Network acts as the settlement layer and a
+                key source of liquidity. This dual role of Orderly Network
+                supports VeenoX in maintaining high levels of security and
+                efficiency in trade settlements and is instrumental in supplying
+                the liquidity necessary for smooth and continuous trading
+                operations on the VeenoX platform.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>
+                Trading View Powered Charts on VeenoX
+              </AccordionTrigger>
+              <AccordionContent>
+                VeenoX utilizes TradingView’s advanced charting technology,
+                offering users real-time market data and analytics. This
+                integration ensures precise and informed trading decisions on
+                the VeenoX platform. TradingView is a global platform for
+                traders and investors. Visit their site for more of their
+                research offerings, such as global market data and the entire
+                crypto market cap.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4">
+              <AccordionTrigger>VeenoX Business Model</AccordionTrigger>
+              <AccordionContent>
+                VeenoX generates revenue through transaction fees, calculated as
+                a percentage of the trade volume. This model aligns
+                VeenoX&apos;s success with that of its users, avoiding practices
+                like countertrading or imposing hidden fees.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+              <AccordionTrigger>Why Choose VeenoX?</AccordionTrigger>
+              <AccordionContent>
+                VeenoX distinguishes itself with its security, lowest
+                transaction fees across Orderly perp dex, global access,
+                advanced UI, community engagement, and commitment to continuous
+                innovation, providing a superior trading experience in the
+                decentralized finance landscape.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </div>
     </main>
   );
 };

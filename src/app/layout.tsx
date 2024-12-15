@@ -1,3 +1,4 @@
+import { LandingFooter } from "@/layouts/footer";
 import { Header } from "@/layouts/header";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
@@ -39,6 +40,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <LandingFooter />
       </body>
     </html>
   );
