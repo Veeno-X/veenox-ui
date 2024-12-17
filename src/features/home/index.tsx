@@ -274,63 +274,126 @@ const Home: FC = () => {
             <AccordionItem value="item-1">
               <AccordionTrigger>What is VeenoX?</AccordionTrigger>
               <AccordionContent>
-                Veenox is a decentralized exchange that focuses on
-                orderbook-based trading, offering secure cryptocurrency trades
-                through the use of technology from Orderly Networks. It enables
-                real-time matching of buy and sell orders, promoting transparent
-                trading without centralized intermediaries, this empowering
-                users in the decentralized finance (DeFi) space.
+                VeenoX is a professional-grade DEX running on Orderly Network
+                that bridges the gap between traditional and decentralized
+                finance. By offering perpetual futures and synthetic RWA
+                trading, we solve the main pain points of traditional brokers:
+                high fees, and KYC requirements. Through Pyth Network
+                integration, traders can access both crypto and traditional
+                market assets (stocks, commodities) 24/7 in a synthetic form,
+                with significantly lower fees and no geographical restrictions.
+                We combine this accessibility with gamification elements, an
+                integrated trading academy, and advanced trading features to
+                create a comprehensive trading ecosystem.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                VeenoX & Orderly Network&apos;s Partnership
+                What makes VeenoX different from other perp DEXs?
               </AccordionTrigger>
               <AccordionContent>
-                VeenoX closely partners with Orderly Network, leveraging its
-                technology and core contracts, especially for trade settlements.
-                This collaboration ensures not only the technological
-                infrastructure behind VeenoX but also its liquidity foundation.
-                While VeenoX provides the platform for trading and transaction
-                coordination, Orderly Network acts as the settlement layer and a
-                key source of liquidity. This dual role of Orderly Network
-                supports VeenoX in maintaining high levels of security and
-                efficiency in trade settlements and is instrumental in supplying
-                the liquidity necessary for smooth and continuous trading
-                operations on the VeenoX platform.
+                VeenoX stands out through:
+                <ul>
+                  <li>
+                    - Synthetic RWA trading that enables access to traditional
+                    markets without the high fees and restrictions of
+                    centralized brokers
+                  </li>
+                  <li>
+                    - Integrated trading academy for skill development, bridging
+                    the gap between traditional and crypto trading
+                  </li>
+                  <li>
+                    - Gamified trading experience with ranks and levels that
+                    rewards both crypto and RWA trading performance
+                  </li>
+                  <li>
+                    - Trading competitions across all asset classes with
+                    performance-based rewards
+                  </li>
+                  <li>
+                    - Professional-grade trading tools comparable to traditional
+                    trading platforms
+                  </li>
+                  <li>
+                    - No KYC requirements or geographical restrictions while
+                    maintaining institutional-grade execution
+                  </li>
+                  <li>
+                    - Significantly lower fees compared to traditional brokers
+                  </li>
+                  <li>
+                    - Focus on both education and execution for all types of
+                    traders
+                  </li>
+                </ul>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger>
-                Trading View Powered Charts on VeenoX
-              </AccordionTrigger>
+              <AccordionTrigger>What can I trade on VeenoX?</AccordionTrigger>
               <AccordionContent>
-                VeenoX utilizes TradingView’s advanced charting technology,
-                offering users real-time market data and analytics. This
-                integration ensures precise and informed trading decisions on
-                the VeenoX platform. TradingView is a global platform for
-                traders and investors. Visit their site for more of their
-                research offerings, such as global market data and the entire
-                crypto market cap.
+                Currently, VeenoX offers perpetual futures trading. We are
+                expanding to include:
+                <ul>
+                  <li>
+                    - Perpetual futures trading with competitive fees and
+                    professional-grade tools
+                  </li>
+                  <li>
+                    - Spot trading for major cryptocurrencies with deep
+                    liquidity
+                  </li>
+                  <li>
+                    - Synthetic RWA trading without KYC requirements or
+                    geographical restrictions
+                  </li>
+                  <li>
+                    - Comprehensive backtesting capabilities across both crypto
+                    and traditional assets
+                  </li>
+                </ul>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-              <AccordionTrigger>VeenoX Business Model</AccordionTrigger>
+              <AccordionTrigger>
+                {" "}
+                How does the trading academy work?
+              </AccordionTrigger>
               <AccordionContent>
-                VeenoX generates revenue through transaction fees, calculated as
-                a percentage of the trade volume. This model aligns
-                VeenoX&apos;s success with that of its users, avoiding practices
-                like countertrading or imposing hidden fees.
+                Our academy provides a comprehensive educational experience
+                where traders progress through structured learning paths,
+                starting from basic concepts to advanced trading strategies.
+                Traders gain hands-on experience through practical trading
+                exercises while their performance is continuously tracked. The
+                learning journey is enriched by an achievement-based system that
+                rewards progress and mastery. Most importantly, traders can
+                practice their skills in a controlled environment, allowing them
+                to gain real trading experience without the risk of significant
+                losses. Whether you're transitioning from traditional markets or
+                just starting your trading journey, our academy ensures you
+                develop the skills needed for successful trading across both
+                crypto and traditional synthetic assets.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger>Why Choose VeenoX?</AccordionTrigger>
+              <AccordionTrigger>
+                What features are coming next?
+              </AccordionTrigger>
               <AccordionContent>
-                VeenoX distinguishes itself with its security, lowest
-                transaction fees across Orderly perp dex, global access,
-                advanced UI, community engagement, and commitment to continuous
-                innovation, providing a superior trading experience in the
-                decentralized finance landscape.
+                Our roadmap is focused on expanding VeenoX's capabilities across
+                multiple fronts. Soon, we'll be launching synthetic RWA trading
+                integration, allowing traders to access traditional markets with
+                the same ease as crypto markets. We're developing enhanced
+                backtesting tools that will let traders test their strategies
+                across both crypto and traditional market conditions. A mobile
+                app is in development to ensure traders can manage their
+                positions and access all features on the go. For institutional
+                traders and algorithmic strategies, we're building advanced API
+                access with comprehensive documentation. Additionally, we're
+                constantly expanding our educational content to cover both
+                crypto and traditional market trading strategies, ensuring our
+                traders have all the resources they need to succeed in any
+                market condition.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
