@@ -21,7 +21,7 @@ export const LandingFooter = () => {
           />
           <p className="text-font-60 text-sm mt-auto font-light md:mt-5">
             Copyright © 2024 VeenoX All Rights Reserved.
-          </p>{" "}
+          </p>
         </div>
         <div className="flex w-[90%] mx-auto md:mx-0 md:w-[50%] justify-between gap-5">
           <div>

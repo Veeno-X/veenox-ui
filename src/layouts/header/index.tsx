@@ -7,9 +7,11 @@ export const Header = () => {
   return (
     <div
       className={`fixed top-0 left-1/2 -translate-x-1/2 h-[60px] md:h-[70px] z-[1000] w-full
-   bg-[#2b2f3649] border border-borderColor-DARK
-   backdrop-blur-md px-5 md:pl-5 pr-2 flex items-center justify-between transition-all duration-300
-   ${scrollDirection === "down" ? "-translate-y-[120px]" : "translate-y-0"}`}
+      bg-[#2b2f3649] border border-borderColor-DARK
+        backdrop-blur-md px-5 md:pl-5 pr-2 flex items-center justify-between transition-all duration-300
+        ${
+          scrollDirection === "down" ? "-translate-y-[120px]" : "translate-y-0"
+        }`}
     >
       <img
         src="/layers/veenox.png"
@@ -24,7 +26,6 @@ export const Header = () => {
       <nav className="h-full cursor-pointer">
         <ul className="text-white font-bold text-sm md:text-base flex items-center gap-2.5 md:gap-5 h-full">
           <li>
-            {" "}
             <Link
               href="https://x.com/veenox_xyz"
               target="_blank"
