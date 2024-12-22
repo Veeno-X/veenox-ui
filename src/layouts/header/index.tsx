@@ -18,11 +18,6 @@ export const Header = () => {
         alt="Veeno Logo"
         className="h-[30px] md:h-[35px] md:block hidden w-auto max-w-auto max-h-[25px] sm:max-w-auto md:max-h-[35px]"
       />
-      <img
-        src="/veenox/Logo-V-1.png"
-        alt="Veeno Logo"
-        className="h-[27px] md:hidden block w-auto max-w-auto max-h-[30px] sm:max-w-auto"
-      />
       <nav className="h-full cursor-pointer">
         <ul className="text-white font-bold text-sm md:text-base flex items-center gap-2.5 md:gap-5 h-full">
           <li>

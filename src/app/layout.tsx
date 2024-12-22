@@ -58,7 +58,6 @@ export default function RootLayout({
           sizes="180x180"
           href="/pwa/apple-touch-icon.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
 
         <meta name="theme-color" content="#1B1D22" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
