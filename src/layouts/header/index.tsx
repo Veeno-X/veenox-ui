@@ -15,8 +15,8 @@ export const Header = () => {
     >
       <img
         src="/layers/veenox.png"
-        alt="Veeno Logo"
-        className="h-[30px] md:h-[35px] md:block hidden w-auto max-w-auto max-h-[25px] sm:max-w-auto md:max-h-[35px]"
+        alt="Veenox"
+        className="h-[20px] sm:h-[25px] md:h-[30px] lg:h-[35px] w-auto max-h-[35px]"
       />
       <nav className="h-full cursor-pointer">
         <ul className="text-white font-bold text-sm md:text-base flex items-center gap-2.5 md:gap-5 h-full">
@@ -52,7 +52,7 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
-      <button className="h-[35px] md:h-[45px] px-1 lg:px-3 rounded-xl text-white text-sm lg:text-lg cursor-pointer bg-base_color sm:block hidden bg-purple">
+      <button className="h-[30px] sm:h-[35px] md:h-[45px] px-2 sm:px-3 lg:px-4 rounded-xl text-white text-sm lg:text-lg cursor-pointer bg-base_color bg-purple">
         <Link
           href="/perp/PERP_BTC_USDC"
           className="w-full h-full hover:text-white"
