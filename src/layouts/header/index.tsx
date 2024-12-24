@@ -18,7 +18,7 @@ export const Header = () => {
         alt="Veenox"
         className="h-[20px] sm:h-[25px] md:h-[30px] lg:h-[35px] w-auto max-h-[35px]"
       />
-      <nav className="h-full cursor-pointer">
+      <nav className="hidden min-[400px]:flex h-full cursor-pointer">
         <ul className="text-white font-bold text-sm md:text-base flex items-center gap-2.5 md:gap-5 h-full">
           <li>
             <Link

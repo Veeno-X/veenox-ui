@@ -4,9 +4,9 @@ import Link from "next/link";
 export const ChainsSection = () => (
   <section className="py-[100px] sm:py-[150px] lg:py-[30vh] relative overflow-hidden">
   <div className="max-w-[1500px] w-[90%] mx-auto">
-    <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start mb-[50px] lg:mb-[200px]">
+    <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start mb-[50px] lg:mb-[40px]">
       {/* Left Content */}
-      <div className="mb-10 lg:mb-[200px] max-w-full lg:max-w-[840px] text-center lg:text-left">
+      <div className="mb-10 lg:mb-[40px] max-w-full lg:max-w-[840px] text-center lg:text-left">
         <H2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-bold">
           Bringing crypto and traditional markets together, from Bitcoin to Gold and Stock Indices.
         </H2>
@@ -16,23 +16,25 @@ export const ChainsSection = () => (
       </div>
 
       {/* Right Content */}
-      <div className="relative flex justify-center lg:justify-end w-full lg:w-auto">
-        <img
-          src="/assets/tokens.png"
-          className="w-[300px] sm:w-[400px] lg:w-[500px] -mt-[50px] lg:-mt-[100px]"
-          alt="Tokens"
-        />
-        <div className="absolute bottom-[5%] sm:bottom-[10%] lg:bottom-[18%] left-[50%] sm:left-[40%] lg:-left-[35%] transform -translate-x-1/2 lg:translate-x-0 text-center lg:text-left">
-          <H2 className="text-6xl sm:text-7xl lg:text-9xl font-bold">
-            110<span>+</span>
+      <div className="flex flex-col items-center w-full gap-6 text-center">
+        {/* Text Content */}
+        <div>
+          <H2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-bold">
+            <span>110+ Total pairs available</span>
           </H2>
-          <FontLarge>Total pairs available</FontLarge>
           <Link href={""} className="text-font-80">
             <FontMedium className="mt-5 sm:mt-10 inline-block">
               Explore tokens +
             </FontMedium>
           </Link>
         </div>
+
+        {/* Image */}
+        <img
+          src="/assets/tokens.png"
+          className="w-[250px]"
+          alt="Tokens"
+        />
       </div>
     </div>
 
