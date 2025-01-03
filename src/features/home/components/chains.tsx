@@ -5,7 +5,6 @@ export const ChainsSection = () => (
   <section className="py-[100px] sm:py-[150px] lg:py-[30vh] relative overflow-hidden">
     <div className="max-w-[1500px] w-[90%] mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start mb-[50px] lg:mb-[40px]">
-        {/* Left Content */}
         <div className="mb-10 lg:mb-[40px] max-w-full lg:max-w-[840px] text-center lg:text-left">
           <H2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-bold">
             Bringing crypto and traditional markets together, from Bitcoin to
